@@ -19,11 +19,10 @@
         "energy_bar@uc.energy_bar": {}
       },
       {
-        "machine_description@uc.text_label": {
+        "machine_description@uc.machine_status_label": {
           "collection_index": 1,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "$text_scale": 0.55,
           "offset": [14, 12]
         }
       },
@@ -97,12 +96,12 @@
       {
         "io_tab@uc.io_tab": {
           "$io_items_modes_description": "ui.utilitycraft:io.digitizer.items",
-          "$io_top_texture": "textures/blocks/machines/digitizer_off_up",
-          "$io_left_texture": "textures/blocks/machines/digitizer_off_west",
-          "$io_front_texture": "textures/blocks/machines/digitizer_off_north",
-          "$io_right_texture": "textures/blocks/machines/digitizer_off_east",
-          "$io_bottom_texture": "textures/blocks/machines/digitizer_off_down",
-          "$io_back_texture": "textures/blocks/machines/digitizer_off_south",
+          "$io_top_texture": "textures/ui/machine_faces/digitizer/32/up",
+          "$io_left_texture": "textures/ui/machine_faces/digitizer/32/west",
+          "$io_front_texture": "textures/ui/machine_faces/digitizer/32/north",
+          "$io_right_texture": "textures/ui/machine_faces/digitizer/32/east",
+          "$io_bottom_texture": "textures/ui/machine_faces/digitizer/32/down",
+          "$io_back_texture": "textures/ui/machine_faces/digitizer/32/south",
           "$io_item_top_index": 16,
           "$io_item_left_index": 17,
           "$io_item_front_index": 18,
@@ -136,14 +135,26 @@
         "item_lock_notification_factory@common.item_lock_notification_factory": {}
       },
       {
-        "root_panel@common.root_panel": {
+        "root_panel@uc.machine_root_panel": {
           "layer": 1,
           "controls": [
             {
-              "common_panel@common.common_panel": {}
+              "pocket_background@uc.pocket_machine_background": {}
             },
             {
-              "chest_panel": {
+              "pocket_header@uc.pocket_machine_header": {}
+            },
+            {
+              "pocket_inventory@uc.pocket_player_inventory": {}
+            },
+            {
+              "pocket_divider@uc.pocket_machine_divider": {}
+            },
+            {
+              "common_panel@uc.machine_common_panel": {}
+            },
+            {
+              "chest_panel@uc.machine_chest_panel": {
                 "type": "panel",
                 "layer": 5,
                 "controls": [
@@ -151,10 +162,10 @@
                     "digitizer_top@digitizer.digitizer_top": {}
                   },
                   {
-                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                    "inventory_panel_bottom_half_with_label@uc.machine_inventory_panel_bottom_half_with_label": {}
                   },
                   {
-                    "hotbar_grid@common.hotbar_grid_template": {}
+                    "hotbar_grid@uc.machine_hotbar_grid_template": {}
                   },
                   {
                     "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}

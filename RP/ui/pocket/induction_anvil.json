@@ -1,0 +1,2702 @@
+{
+  "namespace": "ucp",
+  "induction_anvil_work": {
+    "type": "panel",
+    "size": [
+      140,
+      146
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "status_collection": {
+          "type": "collection_panel",
+          "collection_name": "container_items",
+          "$item_collection_name": "container_items",
+          "size": [
+            100,
+            96
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "status": {
+                "type": "panel",
+                "size": [
+                  100,
+                  96
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/screen_vertical_bg",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "text": {
+                      "type": "label",
+                      "text": "#hover_text",
+                      "localize": false,
+                      "size": [
+                        94,
+                        90
+                      ],
+                      "offset": [
+                        3,
+                        3
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "color": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "text_alignment": "left",
+                      "font_type": "default",
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "layer": 3,
+                      "bindings": [
+                        {
+                          "binding_name": "#hover_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "container_items"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "collection_index": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "energy_collection": {
+          "type": "collection_panel",
+          "collection_name": "container_items",
+          "$item_collection_name": "container_items",
+          "size": [
+            50,
+            50
+          ],
+          "offset": [
+            90,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "energy": {
+                "type": "panel",
+                "size": [
+                  50,
+                  50
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "fill": {
+                      "type": "panel",
+                      "size": [
+                        48,
+                        48
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "controls": [
+                        {
+                          "renderer@common.item_renderer": {
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "anchor_from": "center",
+                            "anchor_to": "center",
+                            "layer": 2
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "border": {
+                      "type": "image",
+                      "texture": "$border",
+                      "size": [
+                        16,
+                        48
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 3
+                    }
+                  }
+                ],
+                "$border|default": "textures/ui/energy_border",
+                "collection_index": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tool_label": {
+          "type": "label",
+          "text": "ツール",
+          "localize": true,
+          "size": [
+            80,
+            10
+          ],
+          "offset": [
+            0,
+            100
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "text_alignment": "left",
+          "font_type": "default",
+          "font_size": "normal",
+          "font_scale_factor": 1.0,
+          "layer": 3
+        }
+      },
+      {
+        "input": {
+          "type": "panel",
+          "size": [
+            28,
+            28
+          ],
+          "offset": [
+            8,
+            114
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "item_collection": {
+                "type": "collection_panel",
+                "collection_name": "container_items",
+                "$item_collection_name": "container_items",
+                "size": [
+                  28,
+                  28
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "item@common.pocket_ui_container_item": {
+                      "collection_index": 3,
+                      "$item_collection_name": "container_items",
+                      "size": [
+                        28,
+                        28
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "outline": {
+                "type": "image",
+                "texture": "textures/ui/slots/input_2_slot",
+                "size": [
+                  28,
+                  28
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false,
+                "layer": 4
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "induction_anvil_upgrades": {
+    "type": "panel",
+    "size": [
+      140,
+      124
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "title": {
+          "type": "label",
+          "text": "ui.utilitycraft:upgrades_panel.name",
+          "localize": true,
+          "size": [
+            140,
+            16
+          ],
+          "offset": [
+            0,
+            6
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "text_alignment": "left",
+          "font_type": "default",
+          "font_size": "normal",
+          "font_scale_factor": 1.0,
+          "layer": 3
+        }
+      },
+      {
+        "upgrade_0": {
+          "type": "panel",
+          "size": [
+            28,
+            28
+          ],
+          "offset": [
+            4,
+            48
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "item_collection": {
+                "type": "collection_panel",
+                "collection_name": "container_items",
+                "$item_collection_name": "container_items",
+                "size": [
+                  28,
+                  28
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "item@common.pocket_ui_container_item": {
+                      "collection_index": 4,
+                      "$item_collection_name": "container_items",
+                      "size": [
+                        28,
+                        28
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "outline": {
+                "type": "image",
+                "texture": "textures/ui/slots/upgrade_slot",
+                "size": [
+                  28,
+                  28
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false,
+                "layer": 4
+              }
+            },
+            {
+              "placeholder_collection": {
+                "type": "collection_panel",
+                "collection_name": "container_items",
+                "$item_collection_name": "container_items",
+                "size": [
+                  22,
+                  22
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "placeholder": {
+                      "type": "image",
+                      "texture": "textures/items/machinery/speed_upgrade",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "keep_ratio": false,
+                      "alpha": 0.5,
+                      "layer": 3,
+                      "collection_index": 4,
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "container_items"
+                        },
+                        {
+                          "binding_name": "#hover_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "container_items",
+                          "binding_condition": "always"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#hover_text = '')",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "upgrade_1": {
+          "type": "panel",
+          "size": [
+            28,
+            28
+          ],
+          "offset": [
+            38,
+            48
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "item_collection": {
+                "type": "collection_panel",
+                "collection_name": "container_items",
+                "$item_collection_name": "container_items",
+                "size": [
+                  28,
+                  28
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "item@common.pocket_ui_container_item": {
+                      "collection_index": 5,
+                      "$item_collection_name": "container_items",
+                      "size": [
+                        28,
+                        28
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "outline": {
+                "type": "image",
+                "texture": "textures/ui/slots/upgrade_slot",
+                "size": [
+                  28,
+                  28
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false,
+                "layer": 4
+              }
+            },
+            {
+              "placeholder_collection": {
+                "type": "collection_panel",
+                "collection_name": "container_items",
+                "$item_collection_name": "container_items",
+                "size": [
+                  22,
+                  22
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "placeholder": {
+                      "type": "image",
+                      "texture": "textures/items/machinery/energy_upgrade",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "keep_ratio": false,
+                      "alpha": 0.5,
+                      "layer": 3,
+                      "collection_index": 5,
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "container_items"
+                        },
+                        {
+                          "binding_name": "#hover_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "container_items",
+                          "binding_condition": "always"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#hover_text = '')",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "upgrade_2": {
+          "type": "panel",
+          "size": [
+            28,
+            28
+          ],
+          "offset": [
+            72,
+            48
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "frame": {
+                "type": "image",
+                "texture": "textures/ui/slots/none_slot",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false
+              }
+            },
+            {
+              "disabled": {
+                "type": "image",
+                "texture": "textures/ui/icons/disabled",
+                "size": [
+                  22,
+                  22
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false,
+                "layer": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "upgrade_3": {
+          "type": "panel",
+          "size": [
+            28,
+            28
+          ],
+          "offset": [
+            106,
+            48
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "frame": {
+                "type": "image",
+                "texture": "textures/ui/slots/none_slot",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false
+              }
+            },
+            {
+              "disabled": {
+                "type": "image",
+                "texture": "textures/ui/icons/disabled",
+                "size": [
+                  22,
+                  22
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false,
+                "layer": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "induction_anvil_info": {
+    "type": "panel",
+    "size": [
+      140,
+      282
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "description": {
+          "type": "label",
+          "text": "ui.utilitycraft:info.induction_anvil",
+          "localize": true,
+          "size": [
+            132,
+            206
+          ],
+          "offset": [
+            4,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "text_alignment": "left",
+          "font_type": "default",
+          "font_size": "normal",
+          "font_scale_factor": 1.0,
+          "layer": 3
+        }
+      },
+      {
+        "resource_0": {
+          "type": "panel",
+          "size": [
+            132,
+            64
+          ],
+          "offset": [
+            4,
+            210
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "background": {
+                "type": "image",
+                "texture": "textures/ui/black_background",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "keep_ratio": false
+              }
+            },
+            {
+              "value_collection": {
+                "type": "collection_panel",
+                "collection_name": "container_items",
+                "$item_collection_name": "container_items",
+                "size": [
+                  124,
+                  56
+                ],
+                "offset": [
+                  4,
+                  4
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "value": {
+                      "type": "label",
+                      "text": "#hover_text",
+                      "localize": false,
+                      "size": [
+                        124,
+                        56
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "color": [
+                        1,
+                        1,
+                        1
+                      ],
+                      "text_alignment": "left",
+                      "font_type": "default",
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "layer": 3,
+                      "collection_index": 0,
+                      "bindings": [
+                        {
+                          "binding_name": "#hover_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "container_items",
+                          "binding_condition": "always"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "induction_anvil_right_tabs": {
+    "type": "panel",
+    "size": [
+      32,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "induction_anvil_tab_work@common.toggle": {
+          "size": [
+            32,
+            28
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$toggle_name": "induction_anvil_pages",
+          "$radio_toggle_group": true,
+          "$toggle_group_forced_index": 0,
+          "$toggle_group_default_selected": 0,
+          "$toggle_default_state": true,
+          "$reset_on_focus_lost": false,
+          "$toggle_tts_header": "マシン",
+          "$toggle_binding_type": "none",
+          "$toggle_property_bag": {
+            "#toggle_state": true
+          },
+          "$unchecked_control": "off",
+          "$checked_control": "on",
+          "$unchecked_hover_control": "off_hover",
+          "$checked_hover_control": "on_hover",
+          "unchecked_control": "off",
+          "checked_control": "on",
+          "unchecked_hover_control": "off_hover",
+          "checked_hover_control": "on_hover",
+          "unchecked_locked_control": "off",
+          "checked_locked_control": "on",
+          "unchecked_locked_hover_control": "off_hover",
+          "checked_locked_hover_control": "on_hover",
+          "controls": [
+            {
+              "off": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/static/images/induction_anvil_render",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "on": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0,
+                      "color": [
+                        0.35,
+                        0.8,
+                        0.2
+                      ]
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/static/images/induction_anvil_render",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "off_hover": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/static/images/induction_anvil_render",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "on_hover": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0,
+                      "color": [
+                        0.35,
+                        0.8,
+                        0.2
+                      ]
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/static/images/induction_anvil_render",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "layer": 4
+        }
+      },
+      {
+        "induction_anvil_tab_upgrades@common.toggle": {
+          "size": [
+            32,
+            28
+          ],
+          "offset": [
+            0,
+            28
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$toggle_name": "induction_anvil_pages",
+          "$radio_toggle_group": true,
+          "$toggle_group_forced_index": 1,
+          "$toggle_group_default_selected": 0,
+          "$toggle_default_state": false,
+          "$reset_on_focus_lost": false,
+          "$toggle_tts_header": "強化",
+          "$toggle_binding_type": "none",
+          "$toggle_property_bag": {
+            "#toggle_state": false
+          },
+          "$unchecked_control": "off",
+          "$checked_control": "on",
+          "$unchecked_hover_control": "off_hover",
+          "$checked_hover_control": "on_hover",
+          "unchecked_control": "off",
+          "checked_control": "on",
+          "unchecked_hover_control": "off_hover",
+          "checked_hover_control": "on_hover",
+          "unchecked_locked_control": "off",
+          "checked_locked_control": "on",
+          "unchecked_locked_hover_control": "off_hover",
+          "checked_locked_hover_control": "on_hover",
+          "controls": [
+            {
+              "off": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/items/machinery/speed_upgrade",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "on": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0,
+                      "color": [
+                        0.35,
+                        0.8,
+                        0.2
+                      ]
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/items/machinery/speed_upgrade",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "off_hover": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/items/machinery/speed_upgrade",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "on_hover": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0,
+                      "color": [
+                        0.35,
+                        0.8,
+                        0.2
+                      ]
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/items/machinery/speed_upgrade",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "layer": 4
+        }
+      },
+      {
+        "induction_anvil_tab_info@common.toggle": {
+          "size": [
+            32,
+            28
+          ],
+          "offset": [
+            0,
+            56
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$toggle_name": "induction_anvil_pages",
+          "$radio_toggle_group": true,
+          "$toggle_group_forced_index": 2,
+          "$toggle_group_default_selected": 0,
+          "$toggle_default_state": false,
+          "$reset_on_focus_lost": false,
+          "$toggle_tts_header": "情報",
+          "$toggle_binding_type": "none",
+          "$toggle_property_bag": {
+            "#toggle_state": false
+          },
+          "$unchecked_control": "off",
+          "$checked_control": "on",
+          "$unchecked_hover_control": "off_hover",
+          "$checked_hover_control": "on_hover",
+          "unchecked_control": "off",
+          "checked_control": "on",
+          "unchecked_hover_control": "off_hover",
+          "checked_hover_control": "on_hover",
+          "unchecked_locked_control": "off",
+          "checked_locked_control": "on",
+          "unchecked_locked_hover_control": "off_hover",
+          "checked_locked_hover_control": "on_hover",
+          "controls": [
+            {
+              "off": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/ui/infobulb",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "on": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0,
+                      "color": [
+                        0.35,
+                        0.8,
+                        0.2
+                      ]
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/ui/infobulb",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "off_hover": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/ui/infobulb",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "on_hover": {
+                "type": "panel",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/TabRightFront",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 0,
+                      "color": [
+                        0.35,
+                        0.8,
+                        0.2
+                      ]
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/ui/infobulb",
+                      "size": [
+                        22,
+                        22
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "keep_ratio": false,
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "layer": 4
+        }
+      }
+    ]
+  },
+  "induction_anvil_screen": {
+    "type": "collection_panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "modal": {
+          "type": "panel",
+          "size": [
+            "100% - 4px",
+            "100% - 40px"
+          ],
+          "offset": [
+            0,
+            2
+          ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "left_background": {
+                "type": "image",
+                "texture": "textures/ui/background_panel",
+                "size": [
+                  "50% - 34px",
+                  "100%"
+                ],
+                "offset": [
+                  32,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "keep_ratio": false,
+                "layer": 0
+              }
+            },
+            {
+              "right_background": {
+                "type": "image",
+                "texture": "textures/ui/background_panel",
+                "size": [
+                  "50% - 34px",
+                  "100%"
+                ],
+                "offset": [
+                  -32,
+                  0
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "keep_ratio": false,
+                "layer": 0
+              }
+            },
+            {
+              "left_title_inventory": {
+                "type": "label",
+                "text": "所持品",
+                "localize": true,
+                "size": [
+                  "50% - 38px",
+                  12
+                ],
+                "offset": [
+                  36,
+                  6
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "color": [
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "text_alignment": "left",
+                "font_type": "default",
+                "font_size": "normal",
+                "font_scale_factor": 1.0,
+                "layer": 3
+              }
+            },
+            {
+              "right_title_work": {
+                "type": "label",
+                "text": "$container_title",
+                "localize": true,
+                "size": [
+                  "50% - 42px",
+                  12
+                ],
+                "offset": [
+                  -36,
+                  6
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "color": [
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "text_alignment": "left",
+                "font_type": "default",
+                "font_size": "normal",
+                "font_scale_factor": 1.0,
+                "layer": 3,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "induction_anvil_tab_work",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible",
+                    "resolve_sibling_scope": false
+                  }
+                ]
+              }
+            },
+            {
+              "right_title_upgrades": {
+                "type": "label",
+                "text": "強化",
+                "localize": true,
+                "size": [
+                  "50% - 42px",
+                  12
+                ],
+                "offset": [
+                  -36,
+                  6
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "color": [
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "text_alignment": "left",
+                "font_type": "default",
+                "font_size": "normal",
+                "font_scale_factor": 1.0,
+                "layer": 3,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "induction_anvil_tab_upgrades",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible",
+                    "resolve_sibling_scope": false
+                  }
+                ]
+              }
+            },
+            {
+              "right_title_info": {
+                "type": "label",
+                "text": "情報",
+                "localize": true,
+                "size": [
+                  "50% - 42px",
+                  12
+                ],
+                "offset": [
+                  -36,
+                  6
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "color": [
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "text_alignment": "left",
+                "font_type": "default",
+                "font_size": "normal",
+                "font_scale_factor": 1.0,
+                "layer": 3,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "induction_anvil_tab_info",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible",
+                    "resolve_sibling_scope": false
+                  }
+                ]
+              }
+            },
+            {
+              "list_background": {
+                "type": "image",
+                "texture": "textures/ui/White",
+                "size": [
+                  "50% - 46px",
+                  "100% - 34px"
+                ],
+                "offset": [
+                  38,
+                  28
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "keep_ratio": false,
+                "layer": 0,
+                "color": [
+                  0.35,
+                  0.35,
+                  0.35
+                ]
+              }
+            },
+            {
+              "close_background": {
+                "type": "image",
+                "texture": "textures/ui/TabRightBackTopMost",
+                "size": [
+                  32,
+                  24
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "keep_ratio": false,
+                "layer": 1
+              }
+            },
+            {
+              "close@common.light_close_button": {
+                "size": [
+                  28,
+                  22
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "layer": 20
+              }
+            },
+            {
+              "left_rail": {
+                "type": "panel",
+                "size": [
+                  32,
+                  "100% - 24px"
+                ],
+                "offset": [
+                  0,
+                  24
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "induction_anvil_left_inventory@common.toggle": {
+                      "size": [
+                        32,
+                        28
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "bottom_left",
+                      "anchor_to": "bottom_left",
+                      "$toggle_name": "induction_anvil_left",
+                      "$radio_toggle_group": true,
+                      "$toggle_group_forced_index": 0,
+                      "$toggle_group_default_selected": 0,
+                      "$toggle_default_state": true,
+                      "$reset_on_focus_lost": false,
+                      "$toggle_tts_header": "所持品",
+                      "$toggle_binding_type": "none",
+                      "$toggle_property_bag": {
+                        "#toggle_state": true
+                      },
+                      "$unchecked_control": "off",
+                      "$checked_control": "on",
+                      "$unchecked_hover_control": "off_hover",
+                      "$checked_hover_control": "on_hover",
+                      "unchecked_control": "off",
+                      "checked_control": "on",
+                      "unchecked_hover_control": "off_hover",
+                      "checked_hover_control": "on_hover",
+                      "unchecked_locked_control": "off",
+                      "checked_locked_control": "on",
+                      "unchecked_locked_hover_control": "off_hover",
+                      "checked_locked_hover_control": "on_hover",
+                      "controls": [
+                        {
+                          "off": {
+                            "type": "panel",
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "controls": [
+                              {
+                                "background": {
+                                  "type": "image",
+                                  "texture": "textures/ui/TabLeftFront",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "keep_ratio": false,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "custom",
+                                  "renderer": "inventory_item_renderer",
+                                  "size": [
+                                    22,
+                                    22
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 1,
+                                  "property_bag": {
+                                    "#item_id_aux": 3538944,
+                                    "#collection_name": "inventory_tab",
+                                    "#collection_index": 0
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "on": {
+                            "type": "panel",
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "controls": [
+                              {
+                                "background": {
+                                  "type": "image",
+                                  "texture": "textures/ui/TabLeftFront",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "keep_ratio": false,
+                                  "layer": 0,
+                                  "color": [
+                                    0.35,
+                                    0.8,
+                                    0.2
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "custom",
+                                  "renderer": "inventory_item_renderer",
+                                  "size": [
+                                    22,
+                                    22
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 1,
+                                  "property_bag": {
+                                    "#item_id_aux": 3538944,
+                                    "#collection_name": "inventory_tab",
+                                    "#collection_index": 0
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "off_hover": {
+                            "type": "panel",
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "controls": [
+                              {
+                                "background": {
+                                  "type": "image",
+                                  "texture": "textures/ui/TabLeftFront",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "keep_ratio": false,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "custom",
+                                  "renderer": "inventory_item_renderer",
+                                  "size": [
+                                    22,
+                                    22
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 1,
+                                  "property_bag": {
+                                    "#item_id_aux": 3538944,
+                                    "#collection_name": "inventory_tab",
+                                    "#collection_index": 0
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "on_hover": {
+                            "type": "panel",
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "controls": [
+                              {
+                                "background": {
+                                  "type": "image",
+                                  "texture": "textures/ui/TabLeftFront",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "keep_ratio": false,
+                                  "layer": 0,
+                                  "color": [
+                                    0.35,
+                                    0.8,
+                                    0.2
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "custom",
+                                  "renderer": "inventory_item_renderer",
+                                  "size": [
+                                    22,
+                                    22
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 1,
+                                  "property_bag": {
+                                    "#item_id_aux": 3538944,
+                                    "#collection_name": "inventory_tab",
+                                    "#collection_index": 0
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "layer": 4
+                    }
+                  }
+                ],
+                "layer": 4
+              }
+            },
+            {
+              "right_rail": {
+                "type": "panel",
+                "size": [
+                  32,
+                  "100% - 24px"
+                ],
+                "offset": [
+                  0,
+                  24
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "controls": [
+                  {
+                    "scroll@common.scrolling_panel": {
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "$show_background": false,
+                      "$scrolling_content": "$content",
+                      "$scrolling_pane_size": [
+                        "100%",
+                        "100% - 2px"
+                      ],
+                      "$scrolling_pane_size_touch": [
+                        "100%",
+                        "100% - 2px"
+                      ],
+                      "$scrolling_pane_offset": [
+                        0,
+                        0
+                      ],
+                      "$scrolling_pane_offset_touch": [
+                        0,
+                        0
+                      ],
+                      "$scroll_view_port_offset": [
+                        0,
+                        0
+                      ],
+                      "$scroll_view_port_offset_touch": [
+                        0,
+                        0
+                      ],
+                      "$view_port_size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "$view_port_size_touch": [
+                        "100%",
+                        "100%"
+                      ],
+                      "$scroll_view_port_size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "$scroll_view_port_size_touch": [
+                        "100%",
+                        "100%"
+                      ],
+                      "$scrolling_content_anchor_from": "top_middle",
+                      "$scrolling_content_anchor_to": "top_middle",
+                      "$scroll_size": [
+                        4,
+                        "100% - 4px"
+                      ],
+                      "$scroll_size_touch": [
+                        4,
+                        "100% - 4px"
+                      ],
+                      "$scroll_bar_contained": true,
+                      "$scroll_bar_contained_touch": true,
+                      "$allow_scrolling_even_when_content_fits": false,
+                      "$jump_to_bottom_on_update": false,
+                      "$force_scroll_to_end_binding_type": "none"
+                    }
+                  }
+                ],
+                "$content": "ucp.induction_anvil_right_tabs",
+                "layer": 4
+              }
+            },
+            {
+              "left": {
+                "type": "panel",
+                "size": [
+                  "50% - 46px",
+                  "100% - 34px"
+                ],
+                "offset": [
+                  38,
+                  28
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "grid_area": {
+                      "type": "panel",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "controls": [
+                        {
+                          "inventory@pocket_containers.inventory_panel": {
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "$container_size": 27,
+                            "$pane_collection": "inventory_items"
+                          }
+                        }
+                      ],
+                      "max_size": [
+                        172,
+                        "100%"
+                      ]
+                    }
+                  }
+                ],
+                "layer": 1
+              }
+            },
+            {
+              "right": {
+                "type": "panel",
+                "size": [
+                  "50% - 34px",
+                  "100% - 24px"
+                ],
+                "offset": [
+                  -32,
+                  24
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "controls": [
+                  {
+                    "pages": {
+                      "type": "panel",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "controls": [
+                        {
+                          "work": {
+                            "type": "panel",
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "controls": [
+                              {
+                                "scroll@common.scrolling_panel": {
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "$show_background": false,
+                                  "$scrolling_content": "$content",
+                                  "$scrolling_pane_size": [
+                                    "100%",
+                                    "100% - 2px"
+                                  ],
+                                  "$scrolling_pane_size_touch": [
+                                    "100%",
+                                    "100% - 2px"
+                                  ],
+                                  "$scrolling_pane_offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scrolling_pane_offset_touch": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scroll_view_port_offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scroll_view_port_offset_touch": [
+                                    0,
+                                    0
+                                  ],
+                                  "$view_port_size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "$view_port_size_touch": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "$scroll_view_port_size": [
+                                    "100% - 4px",
+                                    "100%"
+                                  ],
+                                  "$scroll_view_port_size_touch": [
+                                    "100% - 4px",
+                                    "100%"
+                                  ],
+                                  "$scrolling_content_anchor_from": "top_middle",
+                                  "$scrolling_content_anchor_to": "top_middle",
+                                  "$scroll_size": [
+                                    4,
+                                    "100% - 4px"
+                                  ],
+                                  "$scroll_size_touch": [
+                                    4,
+                                    "100% - 4px"
+                                  ],
+                                  "$scroll_bar_contained": true,
+                                  "$scroll_bar_contained_touch": true,
+                                  "$allow_scrolling_even_when_content_fits": false,
+                                  "$jump_to_bottom_on_update": false,
+                                  "$force_scroll_to_end_binding_type": "none"
+                                }
+                              }
+                            ],
+                            "bindings": [
+                              {
+                                "binding_type": "view",
+                                "source_control_name": "induction_anvil_tab_work",
+                                "source_property_name": "#toggle_state",
+                                "target_property_name": "#visible",
+                                "resolve_sibling_scope": false
+                              }
+                            ],
+                            "$content": "ucp.induction_anvil_work"
+                          }
+                        },
+                        {
+                          "upgrades": {
+                            "type": "panel",
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "controls": [
+                              {
+                                "scroll@common.scrolling_panel": {
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "$show_background": false,
+                                  "$scrolling_content": "$content",
+                                  "$scrolling_pane_size": [
+                                    "100%",
+                                    "100% - 2px"
+                                  ],
+                                  "$scrolling_pane_size_touch": [
+                                    "100%",
+                                    "100% - 2px"
+                                  ],
+                                  "$scrolling_pane_offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scrolling_pane_offset_touch": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scroll_view_port_offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scroll_view_port_offset_touch": [
+                                    0,
+                                    0
+                                  ],
+                                  "$view_port_size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "$view_port_size_touch": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "$scroll_view_port_size": [
+                                    "100% - 4px",
+                                    "100%"
+                                  ],
+                                  "$scroll_view_port_size_touch": [
+                                    "100% - 4px",
+                                    "100%"
+                                  ],
+                                  "$scrolling_content_anchor_from": "top_middle",
+                                  "$scrolling_content_anchor_to": "top_middle",
+                                  "$scroll_size": [
+                                    4,
+                                    "100% - 4px"
+                                  ],
+                                  "$scroll_size_touch": [
+                                    4,
+                                    "100% - 4px"
+                                  ],
+                                  "$scroll_bar_contained": true,
+                                  "$scroll_bar_contained_touch": true,
+                                  "$allow_scrolling_even_when_content_fits": false,
+                                  "$jump_to_bottom_on_update": false,
+                                  "$force_scroll_to_end_binding_type": "none"
+                                }
+                              }
+                            ],
+                            "bindings": [
+                              {
+                                "binding_type": "view",
+                                "source_control_name": "induction_anvil_tab_upgrades",
+                                "source_property_name": "#toggle_state",
+                                "target_property_name": "#visible",
+                                "resolve_sibling_scope": false
+                              }
+                            ],
+                            "$content": "ucp.induction_anvil_upgrades"
+                          }
+                        },
+                        {
+                          "info": {
+                            "type": "panel",
+                            "size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "controls": [
+                              {
+                                "scroll@common.scrolling_panel": {
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "$show_background": false,
+                                  "$scrolling_content": "$content",
+                                  "$scrolling_pane_size": [
+                                    "100%",
+                                    "100% - 2px"
+                                  ],
+                                  "$scrolling_pane_size_touch": [
+                                    "100%",
+                                    "100% - 2px"
+                                  ],
+                                  "$scrolling_pane_offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scrolling_pane_offset_touch": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scroll_view_port_offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "$scroll_view_port_offset_touch": [
+                                    0,
+                                    0
+                                  ],
+                                  "$view_port_size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "$view_port_size_touch": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "$scroll_view_port_size": [
+                                    "100% - 4px",
+                                    "100%"
+                                  ],
+                                  "$scroll_view_port_size_touch": [
+                                    "100% - 4px",
+                                    "100%"
+                                  ],
+                                  "$scrolling_content_anchor_from": "top_middle",
+                                  "$scrolling_content_anchor_to": "top_middle",
+                                  "$scroll_size": [
+                                    4,
+                                    "100% - 4px"
+                                  ],
+                                  "$scroll_size_touch": [
+                                    4,
+                                    "100% - 4px"
+                                  ],
+                                  "$scroll_bar_contained": true,
+                                  "$scroll_bar_contained_touch": true,
+                                  "$allow_scrolling_even_when_content_fits": false,
+                                  "$jump_to_bottom_on_update": false,
+                                  "$force_scroll_to_end_binding_type": "none"
+                                }
+                              }
+                            ],
+                            "bindings": [
+                              {
+                                "binding_type": "view",
+                                "source_control_name": "induction_anvil_tab_info",
+                                "source_property_name": "#toggle_state",
+                                "target_property_name": "#visible",
+                                "resolve_sibling_scope": false
+                              }
+                            ],
+                            "$content": "ucp.induction_anvil_info"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "layer": 1
+              }
+            },
+            {
+              "left_header_rule": {
+                "type": "image",
+                "texture": "textures/ui/White",
+                "size": [
+                  "50% - 40px",
+                  1
+                ],
+                "offset": [
+                  35,
+                  22
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "keep_ratio": false,
+                "color": [
+                  0.35,
+                  0.35,
+                  0.35
+                ],
+                "layer": 3
+              }
+            },
+            {
+              "right_header_rule": {
+                "type": "image",
+                "texture": "textures/ui/White",
+                "size": [
+                  "50% - 40px",
+                  1
+                ],
+                "offset": [
+                  -35,
+                  22
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "keep_ratio": false,
+                "color": [
+                  0.35,
+                  0.35,
+                  0.35
+                ],
+                "layer": 3
+              }
+            },
+            {
+              "divider": {
+                "type": "image",
+                "texture": "textures/ui/black_background",
+                "size": [
+                  2,
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "keep_ratio": false,
+                "layer": 2
+              }
+            }
+          ],
+          "layer": 1
+        }
+      },
+      {
+        "hotbar@common.pocket_hotbar_panel": {
+          "size": [
+            260,
+            36
+          ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "offset": [
+            0,
+            -2
+          ],
+          "layer": 3
+        }
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {}
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {}
+      },
+      {
+        "gamepad_cursor@common.gamepad_cursor_button": {}
+      },
+      {
+        "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+      },
+      {
+        "hold_icon@common.inventory_take_progress_icon_button": {}
+      },
+      {
+        "flying_item_renderer@common.flying_item_renderer": {
+          "layer": 40
+        }
+      }
+    ],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items"
+  }
+}

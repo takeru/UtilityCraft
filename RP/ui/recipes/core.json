@@ -183,19 +183,22 @@
         "$recipes_toggle_checked|default": "textures/ui/toggle_button/tab_pressed",
         "$recipes_toggle_unchecked_hover|default": "textures/ui/toggle_button/tab_hover",
         "$recipes_toggle_checked_hover|default": "textures/ui/toggle_button/tab_hover_pressed",
+        "$show_close_button|default": true,
+        "$top_bg_size|default": [
+            79,
+            26
+        ],
+        "$top_bg_offset|default": [
+            11.5,
+            -2
+        ],
         "controls": [
             {
                 "top_bg": {
                     "type": "image",
                     "texture": "textures/ui/toolbar_background",
-                    "size": [
-                        79,
-                        26
-                    ],
-                    "offset": [
-                        11.5,
-                        -2
-                    ],
+                    "size": "$top_bg_size",
+                    "offset": "$top_bg_offset",
                     "layer": -4
                 }
             },
@@ -286,6 +289,7 @@
             {
                 "close_button_panel": {
                     "type": "panel",
+                    "visible": "$show_close_button",
                     "size": [
                         15,
                         20

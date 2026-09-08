@@ -22,11 +22,10 @@
         "machine_screen@uc.big_machine_screen": {}
       },
       {
-        "machine_description@uc.text_label": {
+        "machine_description@uc.machine_status_label": {
           "collection_index": 1,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "$text_scale": 0.55,
           "offset": [14, 12]
         }
       },
@@ -55,14 +54,26 @@
         "item_lock_notification_factory@common.item_lock_notification_factory": {}
       },
       {
-        "root_panel@common.root_panel": {
+        "root_panel@uc.machine_root_panel": {
           "layer": 1,
           "controls": [
             {
-              "common_panel@common.common_panel": {}
+              "pocket_background@uc.pocket_machine_background": {}
             },
             {
-              "chest_panel": {
+              "pocket_header@uc.pocket_machine_header": {}
+            },
+            {
+              "pocket_inventory@uc.pocket_player_inventory": {}
+            },
+            {
+              "pocket_divider@uc.pocket_machine_divider": {}
+            },
+            {
+              "common_panel@uc.machine_common_panel": {}
+            },
+            {
+              "chest_panel@uc.machine_chest_panel": {
                 "type": "panel",
                 "layer": 5,
                 "controls": [
@@ -70,10 +81,10 @@
                     "battery_top@battery.battery_top": {}
                   },
                   {
-                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                    "inventory_panel_bottom_half_with_label@uc.machine_inventory_panel_bottom_half_with_label": {}
                   },
                   {
-                    "hotbar_grid@common.hotbar_grid_template": {}
+                    "hotbar_grid@uc.machine_hotbar_grid_template": {}
                   },
                   {
                     "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}

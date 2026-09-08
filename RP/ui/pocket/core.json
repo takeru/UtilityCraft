@@ -1,0 +1,376 @@
+{
+  "namespace": "ucp",
+  "display": {
+    "type": "panel",
+    "size": [
+      28,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "renderer@common.item_renderer": {
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "gauge": {
+    "type": "panel",
+    "size": [
+      50,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "fill": {
+          "type": "panel",
+          "size": [
+            48,
+            48
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "controls": [
+            {
+              "renderer@common.item_renderer": {
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "border": {
+          "type": "image",
+          "texture": "$border",
+          "size": [
+            16,
+            48
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "keep_ratio": false,
+          "layer": 3
+        }
+      }
+    ],
+    "$border|default": "textures/ui/energy_border"
+  },
+  "status": {
+    "type": "panel",
+    "size": [
+      100,
+      96
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "background": {
+          "type": "image",
+          "texture": "textures/ui/screen_vertical_bg",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "keep_ratio": false,
+          "layer": 0
+        }
+      },
+      {
+        "text": {
+          "type": "label",
+          "text": "#hover_text",
+          "localize": false,
+          "size": [
+            94,
+            90
+          ],
+          "offset": [
+            3,
+            3
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [
+            0,
+            1,
+            0
+          ],
+          "text_alignment": "left",
+          "font_type": "default",
+          "font_size": "normal",
+          "font_scale_factor": 1.0,
+          "layer": 3,
+          "bindings": [
+            {
+              "binding_name": "#hover_text",
+              "binding_type": "collection",
+              "binding_collection_name": "container_items"
+            }
+          ]
+        }
+      }
+    ],
+    "collection_index": 1
+  },
+  "info_text": {
+    "type": "stack_panel",
+    "size": [
+      "100% - 12px",
+      "100%c"
+    ],
+    "orientation": "vertical",
+    "controls": [
+      {
+        "description": {
+          "type": "label",
+          "text": "$description",
+          "localize": true,
+          "size": [
+            "100%",
+            "default"
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "text_alignment": "left",
+          "font_type": "default",
+          "font_size": "normal",
+          "font_scale_factor": 1.0,
+          "layer": 3
+        }
+      },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [
+            "100%",
+            8
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": []
+        }
+      }
+    ]
+  },
+  "scroll": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "scroll@common.scrolling_panel": {
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$show_background": false,
+          "$scrolling_content": "$content",
+          "$scrolling_pane_size": [
+            "100%",
+            "100% - 2px"
+          ],
+          "$scrolling_pane_size_touch": [
+            "100%",
+            "100% - 2px"
+          ],
+          "$scrolling_pane_offset": [
+            0,
+            0
+          ],
+          "$scrolling_pane_offset_touch": [
+            0,
+            0
+          ],
+          "$scroll_view_port_offset": [
+            0,
+            0
+          ],
+          "$scroll_view_port_offset_touch": [
+            0,
+            0
+          ],
+          "$view_port_size": [
+            "100%",
+            "100%"
+          ],
+          "$view_port_size_touch": [
+            "100%",
+            "100%"
+          ],
+          "$scroll_view_port_size": [
+            "100% - 4px",
+            "100%"
+          ],
+          "$scroll_view_port_size_touch": [
+            "100% - 4px",
+            "100%"
+          ],
+          "$scrolling_content_anchor_from": "top_middle",
+          "$scrolling_content_anchor_to": "top_middle",
+          "$scroll_size": [
+            4,
+            "100% - 4px"
+          ],
+          "$scroll_size_touch": [
+            4,
+            "100% - 4px"
+          ],
+          "$scroll_bar_contained": true,
+          "$scroll_bar_contained_touch": true,
+          "$allow_scrolling_even_when_content_fits": false,
+          "$jump_to_bottom_on_update": false,
+          "$force_scroll_to_end_binding_type": "none"
+        }
+      }
+    ]
+  },
+  "rail_scroll": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "scroll@common.scrolling_panel": {
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$show_background": false,
+          "$scrolling_content": "$content",
+          "$scrolling_pane_size": [
+            "100%",
+            "100% - 2px"
+          ],
+          "$scrolling_pane_size_touch": [
+            "100%",
+            "100% - 2px"
+          ],
+          "$scrolling_pane_offset": [
+            0,
+            0
+          ],
+          "$scrolling_pane_offset_touch": [
+            0,
+            0
+          ],
+          "$scroll_view_port_offset": [
+            0,
+            0
+          ],
+          "$scroll_view_port_offset_touch": [
+            0,
+            0
+          ],
+          "$view_port_size": [
+            "100%",
+            "100%"
+          ],
+          "$view_port_size_touch": [
+            "100%",
+            "100%"
+          ],
+          "$scroll_view_port_size": [
+            "100%",
+            "100%"
+          ],
+          "$scroll_view_port_size_touch": [
+            "100%",
+            "100%"
+          ],
+          "$scrolling_content_anchor_from": "top_middle",
+          "$scrolling_content_anchor_to": "top_middle",
+          "$scroll_size": [
+            4,
+            "100% - 4px"
+          ],
+          "$scroll_size_touch": [
+            4,
+            "100% - 4px"
+          ],
+          "$scroll_bar_contained": true,
+          "$scroll_bar_contained_touch": true,
+          "$allow_scrolling_even_when_content_fits": false,
+          "$jump_to_bottom_on_update": false,
+          "$force_scroll_to_end_binding_type": "none"
+        }
+      }
+    ]
+  }
+}

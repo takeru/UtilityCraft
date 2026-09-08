@@ -135,6 +135,12 @@
     "$recipe_input_index|default": 3,
     "collection_index": "$recipe_input_index",
     "$recipe_input_offset|default": [4, 3],
+    "variables": [
+      {
+        "requires": "$pocket_screen",
+        "$recipe_input_offset": [10, -8]
+      }
+    ],
     "$recipe_input_size|default": [16, 16],
     "$slot_offset": "$recipe_input_offset",
     "$slot_red_size": "$recipe_input_size"
@@ -143,6 +149,12 @@
     "$recipe_output_index|default": 6,
     "collection_index": "$recipe_output_index",
     "$recipe_output_offset|default": [60, 3],
+    "variables": [
+      {
+        "requires": "$pocket_screen",
+        "$recipe_output_offset": [66, -8]
+      }
+    ],
     "$recipe_output_size|default": [24, 24],
     "$slot_offset": "$recipe_output_offset",
     "$slot_red_size": "$recipe_output_size"

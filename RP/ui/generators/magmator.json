@@ -8,9 +8,26 @@
     "offset": [-10, -40],
     "collection_name": "container_items",
     "$item_collection_name": "container_items",
+    "$show_machine_name|default": true,
+    "$machine_screen_size|default": [52, 52],
+    "$machine_screen_offset|default": [11, 14],
+    "$status_offset|default": [14, 12],
+    "$status_pocket_text_scale|default": 0.70,
+    "variables": [
+      {
+        "requires": "$pocket_screen",
+        "$machine_screen_size": [54, 52],
+        "$machine_screen_offset": [5, 14],
+        "$status_offset": [8, 12],
+        "$status_pocket_text_scale": 0.58,
+        "$show_machine_name": false
+      }
+    ],
     "controls": [
       {
-        "machine_name@uc.machine_name": {}
+        "machine_name@uc.machine_name": {
+          "$show_machine_name": "$show_machine_name"
+        }
       },
       {
         "energy_bar@uc.energy_bar": {
@@ -19,15 +36,18 @@
         }
       },
       {
-        "machine_screen@uc.machine_small_screen": {}
+        "machine_screen@uc.machine_small_screen": {
+          "$screen_size": "$machine_screen_size",
+          "$screen_offset": "$machine_screen_offset"
+        }
       },
       {
-        "machine_description@uc.text_label": {
+        "machine_description@uc.machine_status_label": {
           "collection_index": 1,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "$text_scale": 0.55,
-          "offset": [14, 12]
+          "offset": "$status_offset",
+          "$pocket_text_scale": "$status_pocket_text_scale"
         }
       },
       {
@@ -46,18 +66,21 @@
       },
       {
         "io_tab@uc.io_tab": {
+          "$pocket_io_toggle_offset": [105, 1],
+          "$pocket_io_toggle_layer": 5,
+          "$pocket_io_toggle_close_layer": 6,
           "$io_fluids_modes_description": "ui.utilitycraft:io.magmator.liquids",
           "$has_item_io": false,
           "$has_fluid_io": true,
           "$io_items_default": false,
           "$io_fluids_default": true,
           "$io_default_tab_index": 1,
-          "$io_top_texture": "textures/blocks/generators/magmator/basic_off_up",
-          "$io_left_texture": "textures/blocks/generators/magmator/basic_off_west",
-          "$io_front_texture": "textures/blocks/generators/magmator/basic_off_north",
-          "$io_right_texture": "textures/blocks/generators/magmator/basic_off_east",
-          "$io_bottom_texture": "textures/blocks/generators/magmator/basic_off_down",
-          "$io_back_texture": "textures/blocks/generators/magmator/basic_off_south",
+          "$io_top_texture": "textures/ui/machine_faces/basic_magmator/32/up",
+          "$io_left_texture": "textures/ui/machine_faces/basic_magmator/32/west",
+          "$io_front_texture": "textures/ui/machine_faces/basic_magmator/32/north",
+          "$io_right_texture": "textures/ui/machine_faces/basic_magmator/32/east",
+          "$io_bottom_texture": "textures/ui/machine_faces/basic_magmator/32/down",
+          "$io_back_texture": "textures/ui/machine_faces/basic_magmator/32/south",
           "$io_fluid_top_index": 3,
           "$io_fluid_left_index": 4,
           "$io_fluid_front_index": 5,
@@ -68,10 +91,16 @@
       },
       {
         "info_tab@uc.info_tab": {
+          "$pocket_info_toggle_offset": [105, 27],
+          "$pocket_info_toggle_layer": 5,
+          "$pocket_info_toggle_close_layer": 31,
           "$info_description": "ui.utilitycraft:info.magmator"
         }
       }
     ]
+  },
+  "pocket_panel@uc.pocket_machine_panel": {
+    "$machine_top": "magmator.magmator_top"
   },
   "utility_panel": {
     "type": "panel",
@@ -91,14 +120,26 @@
         "item_lock_notification_factory@common.item_lock_notification_factory": {}
       },
       {
-        "root_panel@common.root_panel": {
+        "root_panel@uc.machine_root_panel": {
           "layer": 1,
           "controls": [
             {
-              "common_panel@common.common_panel": {}
+              "pocket_background@uc.pocket_machine_background": {}
             },
             {
-              "chest_panel": {
+              "pocket_header@uc.pocket_machine_header": {}
+            },
+            {
+              "pocket_inventory@uc.pocket_player_inventory": {}
+            },
+            {
+              "pocket_divider@uc.pocket_machine_divider": {}
+            },
+            {
+              "common_panel@uc.machine_common_panel": {}
+            },
+            {
+              "chest_panel@uc.machine_chest_panel": {
                 "type": "panel",
                 "layer": 5,
                 "controls": [
@@ -106,10 +147,10 @@
                     "magmator_top@magmator.magmator_top": {}
                   },
                   {
-                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                    "inventory_panel_bottom_half_with_label@uc.machine_inventory_panel_bottom_half_with_label": {}
                   },
                   {
-                    "hotbar_grid@common.hotbar_grid_template": {}
+                    "hotbar_grid@uc.machine_hotbar_grid_template": {}
                   },
                   {
                     "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}

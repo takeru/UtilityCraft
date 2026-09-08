@@ -45,14 +45,26 @@
         "item_lock_notificati on_factory@common.item_lock_notification_factory": {}
       },
       {
-        "root_panel@common.root_panel": {
+        "root_panel@uc.machine_root_panel": {
           "layer": 1,
           "controls": [
             {
-              "common_panel@common.common_panel": {}
+              "pocket_background@uc.pocket_machine_background": {}
             },
             {
-              "chest_panel": {
+              "pocket_header@uc.pocket_machine_header": {}
+            },
+            {
+              "pocket_inventory@uc.pocket_player_inventory": {}
+            },
+            {
+              "pocket_divider@uc.pocket_machine_divider": {}
+            },
+            {
+              "common_panel@uc.machine_common_panel": {}
+            },
+            {
+              "chest_panel@uc.machine_chest_panel": {
                 "type": "panel",
                 "layer": 5,
                 "controls": [
@@ -60,10 +72,10 @@
                     "ehxibitor_top@ehxibitor.ehxibitor_top": {}
                   },
                   {
-                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                    "inventory_panel_bottom_half_with_label@uc.machine_inventory_panel_bottom_half_with_label": {}
                   },
                   {
-                    "hotbar_grid@common.hotbar_grid_template": {}
+                    "hotbar_grid@uc.machine_hotbar_grid_template": {}
                   },
                   {
                     "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}

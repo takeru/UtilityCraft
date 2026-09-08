@@ -1,5 +1,391 @@
 {
     "namespace": "uc",
+    "pocket_empty_panel": {
+        "type": "panel"
+    },
+    "pocket_machine_half": {
+        "type": "panel",
+        "size": [
+            "50% - 31px",
+            "100%-27px"
+        ],
+        "offset": [
+            0,
+            27
+        ],
+        "anchor_from": "top_middle",
+        "anchor_to": "top_left",
+        "allow_clipping": false
+    },
+    "pocket_machine_tab_rail": {
+        "type": "panel",
+        "size": [
+            31,
+            "100%-27px"
+        ],
+        "offset": [
+            0,
+            27
+        ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "layer": 3,
+        "allow_clipping": false
+    },
+    "pocket_machine_panel": {
+        "type": "panel",
+        "$machine_top|default": "uc.pocket_empty_panel",
+        "controls": [
+            {
+                "container_gamepad_helpers@common.container_gamepad_helpers": {
+                    "layer": 3
+                }
+            },
+            {
+                "modal": {
+                    "type": "panel",
+                    "size": [
+                        "85%",
+                        "85%"
+                    ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "background@pocket_containers.background_panel": {
+                                "layer": 0
+                            }
+                        },
+                        {
+                            "header@pocket_containers.header_area": {
+                                "layer": 20
+                            }
+                        },
+                        {
+                            "divider": {
+                                "type": "image",
+                                "texture": "textures/ui/ScrollRail",
+                                "size": [
+                                    2,
+                                    "100%-27px"
+                                ],
+                                "offset": [
+                                    0,
+                                    27
+                                ],
+                                "anchor_from": "top_middle",
+                                "anchor_to": "top_middle",
+                                "layer": 4
+                            }
+                        },
+                        {
+                            "inventory@pocket_containers.half_screen": {
+                                "$container_size": 36,
+                                "$pane_collection": "combined_hotbar_and_inventory_items"
+                            }
+                        },
+                        {
+                            "machine_tab_rail@uc.pocket_machine_tab_rail": {}
+                        },
+                        {
+                            "machine_half@uc.pocket_machine_half": {
+                                "controls": [
+                                    {
+                                        "machine_top@$machine_top": {
+                                            "size": [
+                                                162,
+                                                140
+                                            ],
+                                            "offset": [
+                                                0,
+                                                4
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "selected_item_details_factory@common.selected_item_details_factory": {}
+            },
+            {
+                "item_lock_notification_factory@common.item_lock_notification_factory": {
+                    "$offset": [
+                        0,
+                        "85%"
+                    ]
+                }
+            },
+            {
+                "gamepad_cursor@common.gamepad_cursor_button": {}
+            },
+            {
+                "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+                "hold_icon@common.inventory_take_progress_icon_button": {}
+            },
+            {
+                "flying_item_renderer@common.flying_item_renderer": {
+                    "layer": 40
+                }
+            }
+        ]
+    },
+    "pocket_recipe_machine_panel": {
+        "type": "panel",
+        "$machine_top|default": "uc.pocket_empty_panel",
+        "$recipe_side_panel|default": "uc.pocket_empty_panel",
+        "controls": [
+            {
+                "container_gamepad_helpers@common.container_gamepad_helpers": {
+                    "layer": 3
+                }
+            },
+            {
+                "modal": {
+                    "type": "panel",
+                    "size": [
+                        "85%",
+                        "85%"
+                    ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "background@pocket_containers.background_panel": {
+                                "layer": 0
+                            }
+                        },
+                        {
+                            "header@pocket_containers.header_area": {
+                                "layer": 20
+                            }
+                        },
+                        {
+                            "divider": {
+                                "type": "image",
+                                "texture": "textures/ui/ScrollRail",
+                                "size": [
+                                    2,
+                                    "100%-27px"
+                                ],
+                                "offset": [
+                                    0,
+                                    27
+                                ],
+                                "anchor_from": "top_middle",
+                                "anchor_to": "top_middle",
+                                "layer": 4
+                            }
+                        },
+                        {
+                            "inventory@pocket_containers.half_screen": {
+                                "$container_size": 36,
+                                "$pane_collection": "combined_hotbar_and_inventory_items",
+                                "bindings": [
+                                    {
+                                        "binding_type": "view",
+                                        "source_control_name": "recipes_toggle_button",
+                                        "source_property_name": "(not (#toggle_state))",
+                                        "target_property_name": "#visible",
+                                        "resolve_sibling_scope": false
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "recipe_side@$recipe_side_panel": {
+                                "offset": [
+                                    -91,
+                                    13
+                                ]
+                            }
+                        },
+                        {
+                            "machine_tab_rail@uc.pocket_machine_tab_rail": {}
+                        },
+                        {
+                            "machine_half@uc.pocket_machine_half": {
+                                "controls": [
+                                    {
+                                        "view_top_bar@uc.machine_recipe_view_top_bar": {
+                                            "offset": [
+                                                0,
+                                                -72
+                                            ],
+                                            "$show_close_button": false,
+                                            "$top_bg_size": [
+                                                54,
+                                                26
+                                            ],
+                                            "$top_bg_offset": [
+                                                2,
+                                                -2
+                                            ],
+                                            "$machine_toggle_unchecked": "textures/ui/toggle_button/tab_pressed",
+                                            "$machine_toggle_checked": "textures/ui/toggle_button/tab_pressed",
+                                            "$machine_toggle_unchecked_hover": "textures/ui/toggle_button/tab_hover_pressed",
+                                            "$machine_toggle_checked_hover": "textures/ui/toggle_button/tab_hover_pressed",
+                                            "$recipes_toggle_checked": "textures/ui/toggle_button/tab",
+                                            "$recipes_toggle_checked_hover": "textures/ui/toggle_button/tab_hover"
+                                        }
+                                    },
+                                    {
+                                        "machine_top@$machine_top": {
+                                            "size": [
+                                                162,
+                                                140
+                                            ],
+                                            "offset": [
+                                                0,
+                                                14
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "selected_item_details_factory@common.selected_item_details_factory": {}
+            },
+            {
+                "item_lock_notification_factory@common.item_lock_notification_factory": {
+                    "$offset": [
+                        0,
+                        "85%"
+                    ]
+                }
+            },
+            {
+                "gamepad_cursor@common.gamepad_cursor_button": {}
+            },
+            {
+                "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+                "hold_icon@common.inventory_take_progress_icon_button": {}
+            },
+            {
+                "flying_item_renderer@common.flying_item_renderer": {
+                    "layer": 40
+                }
+            }
+        ]
+    },
+    "machine_root_panel@common.root_panel": {
+        "$machine_root_size|default": [
+            176,
+            166
+        ],
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$machine_root_size": [
+                    "100%",
+                    "100%"
+                ]
+            }
+        ],
+        "size": "$machine_root_size"
+    },
+    "machine_chest_panel": {
+        "type": "panel",
+        "$machine_panel_size|default": [
+            "100%",
+            "100%"
+        ],
+        "$machine_panel_offset|default": [
+            0,
+            0
+        ],
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$machine_panel_size": [
+                    "50%",
+                    "100%-27px"
+                ],
+                "$machine_panel_offset": [
+                    0,
+                    27
+                ]
+            }
+        ],
+        "size": "$machine_panel_size",
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "offset": "$machine_panel_offset"
+    },
+    "machine_recipes_content": {
+        "type": "panel",
+        "$recipes_content_offset|default": [
+            76,
+            0
+        ],
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$recipes_content_offset": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "offset": "$recipes_content_offset"
+    },
+    "machine_common_panel@common.common_panel": {
+        "$show_close_button|default": true,
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$show_close_button": false
+            }
+        ]
+    },
+    "machine_inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {
+        "ignored": "$pocket_screen"
+    },
+    "machine_hotbar_grid_template@common.hotbar_grid_template": {
+        "ignored": "$pocket_screen"
+    },
+    "pocket_machine_background@pocket_containers.background_panel": {
+        "ignored": "(not $pocket_screen)",
+        "layer": 0
+    },
+    "pocket_machine_header@pocket_containers.header_area": {
+        "ignored": "(not $pocket_screen)",
+        "layer": 20
+    },
+    "pocket_player_inventory@pocket_containers.half_screen": {
+        "ignored": "(not $pocket_screen)",
+        "$container_size": 36,
+        "$pane_collection": "combined_hotbar_and_inventory_items"
+    },
+    "pocket_machine_divider": {
+        "type": "image",
+        "texture": "textures/ui/ScrollRail",
+        "size": [
+            "1%",
+            "100%-27px"
+        ],
+        "offset": [
+            0,
+            27
+        ],
+        "anchor_from": "top_middle",
+        "anchor_to": "top_middle",
+        "ignored": "(not $pocket_screen)",
+        "layer": 4
+    },
     "function_panel": {
         "bindings": [
             {
@@ -238,6 +624,16 @@
             }
         ]
     },
+    "machine_status_label@uc.text_label": {
+        "$text_scale|default": 0.55,
+        "$pocket_text_scale|default": 0.70,
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$text_scale": "$pocket_text_scale"
+            }
+        ]
+    },
     "centered_text_label": {
         "type": "panel",
         "size": [
@@ -339,6 +735,8 @@
     },
     "machine_name": {
         "type": "panel",
+        "$show_machine_name|default": true,
+        "visible": "$show_machine_name",
         "$offset|default": [
             10,
             0
@@ -1543,17 +1941,26 @@
     "input_slot": {
         "type": "input_panel",
         "$slot_background_texture|default": "textures/ui/slots/input_1_slot",
-        "size": [
+        "$slot_size|default": [
             18,
             18
         ],
+        "$item_size|default": [
+            16,
+            16
+        ],
+        "$item_panel_size|default": [
+            18,
+            18
+        ],
+        "size": "$slot_size",
         "controls": [
             {
                 "item@common.container_item": {
-                    "$cell_image_size": [
-                        18,
-                        18
-                    ],
+                    "size": "$slot_size",
+                    "$cell_image_size": "$slot_size",
+                    "$item_renderer_panel_size": "$item_panel_size",
+                    "$item_renderer_size": "$item_size",
                     "layer": 1
                 }
             },
@@ -1561,10 +1968,7 @@
                 "slot_background": {
                     "type": "image",
                     "texture": "$slot_background_texture",
-                    "size": [
-                        18,
-                        18
-                    ],
+                    "size": "$slot_size",
                     "layer": 4
                 }
             }
@@ -1599,17 +2003,26 @@
     },
     "fuel_slot": {
         "type": "input_panel",
-        "size": [
+        "$slot_size|default": [
             18,
             18
         ],
+        "$item_size|default": [
+            16,
+            16
+        ],
+        "$item_panel_size|default": [
+            18,
+            18
+        ],
+        "size": "$slot_size",
         "controls": [
             {
                 "item@common.container_item": {
-                    "$cell_image_size": [
-                        18,
-                        18
-                    ],
+                    "size": "$slot_size",
+                    "$cell_image_size": "$slot_size",
+                    "$item_renderer_panel_size": "$item_panel_size",
+                    "$item_renderer_size": "$item_size",
                     "layer": 1
                 }
             },
@@ -1617,10 +2030,7 @@
                 "slot_background": {
                     "type": "image",
                     "texture": "textures/ui/slots/fuel_slot",
-                    "size": [
-                        18,
-                        18
-                    ],
+                    "size": "$slot_size",
                     "layer": 4
                 }
             }
@@ -1763,21 +2173,26 @@
     "output_slot": {
         "type": "input_panel",
         "$slot_background_texture|default": "textures/ui/slots/output_1_slot",
-        "size": [
+        "$slot_size|default": [
             26,
             26
         ],
+        "$item_size|default": [
+            16,
+            16
+        ],
+        "$item_panel_size|default": [
+            18,
+            18
+        ],
+        "size": "$slot_size",
         "controls": [
             {
                 "item@common.container_item": {
-                    "size": [
-                        26,
-                        26
-                    ],
-                    "$cell_image_size": [
-                        26,
-                        26
-                    ],
+                    "size": "$slot_size",
+                    "$cell_image_size": "$slot_size",
+                    "$item_renderer_panel_size": "$item_panel_size",
+                    "$item_renderer_size": "$item_size",
                     "layer": 1
                 }
             },
@@ -1785,10 +2200,7 @@
                 "slot_background": {
                     "type": "image",
                     "texture": "$slot_background_texture",
-                    "size": [
-                        26,
-                        26
-                    ],
+                    "size": "$slot_size",
                     "layer": 4
                 }
             }
@@ -2779,14 +3191,16 @@
     "machine_small_screen": {
         "type": "image",
         "texture": "textures/ui/screen_vertical_bg",
-        "size": [
+        "$screen_size|default": [
             52,
             52
         ],
-        "offset": [
+        "$screen_offset|default": [
             11,
             14
         ],
+        "size": "$screen_size",
+        "offset": "$screen_offset",
         "anchor_from": "top_left",
         "anchor_to": "top_left",
         "layer": 0
@@ -2839,6 +3253,7 @@
             18,
             18
         ],
+        "$resolved_toggle_size|default": "$toggle_size",
         "$toggle_name|default": "toggle_button",
         "$toggle_index|default": 0,
         "$toggle_group|default": false,
@@ -2878,6 +3293,15 @@
             16,
             16
         ],
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$resolved_toggle_size": [
+                    24,
+                    24
+                ]
+            }
+        ],
         "controls": [
             {
                 "toggle_background": {
@@ -2891,7 +3315,7 @@
             },
             {
                 "$toggle_control_name@common.toggle": {
-                    "size": "$toggle_size",
+                    "size": "$resolved_toggle_size",
                     "layer": "$toggle_layer",
                     "$reset_on_focus_lost": "$toggle_lost_reset",
                     "$default_toggle_state": "$toggle_default_state",
@@ -3288,6 +3712,22 @@
             109,
             -25
         ],
+        "$upgrade_toggle_layer|default": -5,
+        "$upgrade_toggle_close_layer|default": -4,
+        "$pocket_upgrade_toggle_offset|default": [
+            90,
+            -25
+        ],
+        "$pocket_upgrade_toggle_layer|default": -5,
+        "$pocket_upgrade_toggle_close_layer|default": -4,
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$upgrade_toggle_offset": "$pocket_upgrade_toggle_offset",
+                "$upgrade_toggle_layer": "$pocket_upgrade_toggle_layer",
+                "$upgrade_toggle_close_layer": "$pocket_upgrade_toggle_close_layer"
+            }
+        ],
         "controls": [
             {
                 "upgrade_toggle@uc.toggle_button": {
@@ -3295,7 +3735,7 @@
                     "anchor_to": "top_middle",
                     "offset": "$upgrade_toggle_offset",
                     "$toggle_name": "$right_machine_tabs_name",
-                    "$toggle_layer": -5,
+                    "$toggle_layer": "$upgrade_toggle_layer",
                     "$toggle_index": 1,
                     "$toggle_group": true,
                     "$toggle_default_state": false,
@@ -3330,7 +3770,7 @@
                     "anchor_to": "top_middle",
                     "offset": "$upgrade_toggle_offset",
                     "$toggle_name": "$right_machine_tabs_name",
-                    "$toggle_layer": -4,
+                    "$toggle_layer": "$upgrade_toggle_close_layer",
                     "$toggle_index": 0,
                     "$toggle_group": true,
                     "$toggle_default_state": false,
@@ -3969,6 +4409,18 @@
         "$io_items_toggle_control_name|default": "io_items_toggle_button",
         "$io_fluids_toggle_control_name|default": "io_fluids_toggle_button",
         "$io_gases_toggle_control_name|default": "io_gases_toggle_button",
+        "$io_toggle_offset|default": [
+            109,
+            1
+        ],
+        "$io_toggle_layer|default": -5,
+        "$io_toggle_close_layer|default": -4,
+        "$pocket_io_toggle_offset|default": [
+            90,
+            1
+        ],
+        "$pocket_io_toggle_layer|default": -5,
+        "$pocket_io_toggle_close_layer|default": -4,
         "$io_panel_offset|default": [
             10,
             7
@@ -4004,18 +4456,23 @@
         "$io_right_texture|default": "textures/blocks/machines/exhibitor_base_east",
         "$io_bottom_texture|default": "textures/blocks/machines/exhibitor_base_down",
         "$io_back_texture|default": "textures/blocks/machines/exhibitor_base_south",
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$io_toggle_offset": "$pocket_io_toggle_offset",
+                "$io_toggle_layer": "$pocket_io_toggle_layer",
+                "$io_toggle_close_layer": "$pocket_io_toggle_close_layer"
+            }
+        ],
         "controls": [
             {
                 "io_toggle@uc.toggle_button": {
                     "anchor_from": "top_middle",
                     "anchor_to": "top_middle",
-                    "offset": [
-                        109,
-                        1
-                    ],
+                    "offset": "$io_toggle_offset",
                     "visible": "$has_io_config",
                     "$toggle_name": "$right_machine_tabs_name",
-                    "$toggle_layer": -5,
+                    "$toggle_layer": "$io_toggle_layer",
                     "$toggle_index": 2,
                     "$toggle_group": true,
                     "$toggle_default_state": false,
@@ -4048,13 +4505,10 @@
                 "io_toggle_close@uc.toggle_button": {
                     "anchor_from": "top_middle",
                     "anchor_to": "top_middle",
-                    "offset": [
-                        109,
-                        1
-                    ],
+                    "offset": "$io_toggle_offset",
                     "visible": "$has_io_config",
                     "$toggle_name": "$right_machine_tabs_name",
-                    "$toggle_layer": -4,
+                    "$toggle_layer": "$io_toggle_close_layer",
                     "$toggle_index": 0,
                     "$toggle_group": true,
                     "$toggle_default_state": false,
@@ -4105,6 +4559,178 @@
                     "layer": 30,
                     "$item_collection_name": "container_items",
                     "controls": [
+                        {
+                            "io_resource_tabs": {
+                                "type": "panel",
+                                "anchor_from": "top_middle",
+                                "anchor_to": "top_middle",
+                                "size": [
+                                    144,
+                                    114
+                                ],
+                                "controls": [
+                                    {
+                                        "io_items_toggle@uc.toggle_button": {
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "size": [
+                                                24,
+                                                24
+                                            ],
+                                            "offset": [
+                                                -23,
+                                                4
+                                            ],
+                                            "visible": "$has_item_io",
+                                            "$toggle_name": "$io_config_tabs_name",
+                                            "$toggle_layer": 3,
+                                            "$toggle_index": 0,
+                                            "$toggle_group": true,
+                                            "$toggle_default_state": "$io_items_default",
+                                            "$toggle_group_default_selected": "$io_default_tab_index",
+                                            "$toggle_hover_text": "ui.utilitycraft:machine_view.items",
+                                            "$toggle_checked_hover_text": "ui.utilitycraft:machine_view.items",
+                                            "$toggle_hover_text_localize": true,
+                                            "$toggle_checked_hover_text_localize": true,
+                                            "$toggle_control_name": "$io_items_toggle_control_name",
+                                            "$toggle_size": [
+                                                18,
+                                                18
+                                            ],
+                                            "$has_toggle_bg": true,
+                                            "$toggle_bg_size": [
+                                                24,
+                                                24
+                                            ],
+                                            "$toggle_bg_texture": "textures/ui/toggle_button/left_bg",
+                                            "$toggle_bg_offset": [
+                                                0,
+                                                0
+                                            ],
+                                            "$toggle_unchecked": "textures/ui/toggle_button/item_unchecked",
+                                            "$toggle_checked": "textures/ui/toggle_button/item_checked",
+                                            "$toggle_unchecked_hover": "textures/ui/toggle_button/item_unchecked_hover",
+                                            "$toggle_checked_hover": "textures/ui/toggle_button/item_checked_hover"
+                                        }
+                                    },
+                                    {
+                                        "io_fluids_toggle@uc.toggle_button": {
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "size": [
+                                                24,
+                                                24
+                                            ],
+                                            "offset": "$io_fluid_tab_offset",
+                                            "visible": "$has_fluid_io",
+                                            "$toggle_name": "$io_config_tabs_name",
+                                            "$toggle_layer": 3,
+                                            "$toggle_index": 1,
+                                            "$toggle_group": true,
+                                            "$toggle_default_state": "$io_fluids_default",
+                                            "$toggle_group_default_selected": "$io_default_tab_index",
+                                            "$toggle_hover_text": "ui.utilitycraft:machine_view.liquids",
+                                            "$toggle_checked_hover_text": "ui.utilitycraft:machine_view.liquids",
+                                            "$toggle_hover_text_localize": true,
+                                            "$toggle_checked_hover_text_localize": true,
+                                            "$toggle_control_name": "$io_fluids_toggle_control_name",
+                                            "$toggle_size": [
+                                                18,
+                                                18
+                                            ],
+                                            "$has_toggle_bg": true,
+                                            "$toggle_bg_size": [
+                                                24,
+                                                24
+                                            ],
+                                            "$toggle_bg_texture": "textures/ui/toggle_button/left_bg",
+                                            "$toggle_bg_offset": [
+                                                0,
+                                                0
+                                            ],
+                                            "$toggle_unchecked": "textures/ui/toggle_button/fluid_unchecked",
+                                            "$toggle_checked": "textures/ui/toggle_button/fluid_checked",
+                                            "$toggle_unchecked_hover": "textures/ui/toggle_button/fluid_unchecked_hover",
+                                            "$toggle_checked_hover": "textures/ui/toggle_button/fluid_checked_hover",
+                                            "$io_fluid_tab_offset|default": [
+                                                -23,
+                                                4
+                                            ],
+                                            "variables": [
+                                                {
+                                                    "requires": "$has_item_io",
+                                                    "$io_fluid_tab_offset": [
+                                                        -23,
+                                                        30
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "io_gases_toggle@uc.toggle_button": {
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "size": [
+                                                24,
+                                                24
+                                            ],
+                                            "offset": "$io_gas_tab_offset",
+                                            "visible": "$has_gas_io",
+                                            "$toggle_name": "$io_config_tabs_name",
+                                            "$toggle_layer": 3,
+                                            "$toggle_index": 2,
+                                            "$toggle_group": true,
+                                            "$toggle_default_state": "$io_gases_default",
+                                            "$toggle_group_default_selected": "$io_default_tab_index",
+                                            "$toggle_hover_text": "ui.utilitycraft:machine_view.gases",
+                                            "$toggle_checked_hover_text": "ui.utilitycraft:machine_view.gases",
+                                            "$toggle_hover_text_localize": true,
+                                            "$toggle_checked_hover_text_localize": true,
+                                            "$toggle_control_name": "$io_gases_toggle_control_name",
+                                            "$toggle_size": [
+                                                18,
+                                                18
+                                            ],
+                                            "$has_toggle_bg": true,
+                                            "$toggle_bg_size": [
+                                                24,
+                                                24
+                                            ],
+                                            "$toggle_bg_texture": "textures/ui/toggle_button/left_bg",
+                                            "$toggle_bg_offset": [
+                                                0,
+                                                0
+                                            ],
+                                            "$toggle_unchecked": "textures/ui/toggle_button/gas_unchecked",
+                                            "$toggle_checked": "textures/ui/toggle_button/gas_checked",
+                                            "$toggle_unchecked_hover": "textures/ui/toggle_button/gas_unchecked_hover",
+                                            "$toggle_checked_hover": "textures/ui/toggle_button/gas_checked_hover",
+                                            "$io_gas_tab_offset|default": [
+                                                -23,
+                                                4
+                                            ],
+                                            "variables": [
+                                                {
+                                                    "requires": "(($has_item_io or $has_fluid_io) and not ($has_item_io and $has_fluid_io))",
+                                                    "$io_gas_tab_offset": [
+                                                        -23,
+                                                        30
+                                                    ]
+                                                },
+                                                {
+                                                    "requires": "($has_item_io and $has_fluid_io)",
+                                                    "$io_gas_tab_offset": [
+                                                        -23,
+                                                        56
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "io_panel_content": {
                                 "type": "panel",
@@ -4251,138 +4877,6 @@
                                         "resolve_sibling_scope": false
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            "io_items_toggle@uc.toggle_button": {
-                                "anchor_from": "top_left",
-                                "anchor_to": "top_left",
-                                "size": [
-                                    24,
-                                    24
-                                ],
-                                "offset": [
-                                    -23,
-                                    4
-                                ],
-                                "visible": "$has_item_io",
-                                "$toggle_name": "$io_config_tabs_name",
-                                "$toggle_layer": 3,
-                                "$toggle_index": 0,
-                                "$toggle_group": true,
-                                "$toggle_default_state": "$io_items_default",
-                                "$toggle_group_default_selected": "$io_default_tab_index",
-                                "$toggle_hover_text": "ui.utilitycraft:machine_view.items",
-                                "$toggle_checked_hover_text": "ui.utilitycraft:machine_view.items",
-                                "$toggle_hover_text_localize": true,
-                                "$toggle_checked_hover_text_localize": true,
-                                "$toggle_control_name": "$io_items_toggle_control_name",
-                                "$toggle_size": [
-                                    18,
-                                    18
-                                ],
-                                "$has_toggle_bg": true,
-                                "$toggle_bg_size": [
-                                    24,
-                                    24
-                                ],
-                                "$toggle_bg_texture": "textures/ui/toggle_button/left_bg",
-                                "$toggle_bg_offset": [
-                                    0,
-                                    0
-                                ],
-                                "$toggle_unchecked": "textures/ui/toggle_button/item_unchecked",
-                                "$toggle_checked": "textures/ui/toggle_button/item_checked",
-                                "$toggle_unchecked_hover": "textures/ui/toggle_button/item_unchecked_hover",
-                                "$toggle_checked_hover": "textures/ui/toggle_button/item_checked_hover"
-                            }
-                        },
-                        {
-                            "io_fluids_toggle@uc.toggle_button": {
-                                "anchor_from": "top_left",
-                                "anchor_to": "top_left",
-                                "size": [
-                                    24,
-                                    24
-                                ],
-                                "offset": [
-                                    -23,
-                                    30
-                                ],
-                                "visible": "$has_fluid_io",
-                                "$toggle_name": "$io_config_tabs_name",
-                                "$toggle_layer": 3,
-                                "$toggle_index": 1,
-                                "$toggle_group": true,
-                                "$toggle_default_state": "$io_fluids_default",
-                                "$toggle_group_default_selected": "$io_default_tab_index",
-                                "$toggle_hover_text": "ui.utilitycraft:machine_view.liquids",
-                                "$toggle_checked_hover_text": "ui.utilitycraft:machine_view.liquids",
-                                "$toggle_hover_text_localize": true,
-                                "$toggle_checked_hover_text_localize": true,
-                                "$toggle_control_name": "$io_fluids_toggle_control_name",
-                                "$toggle_size": [
-                                    18,
-                                    18
-                                ],
-                                "$has_toggle_bg": true,
-                                "$toggle_bg_size": [
-                                    24,
-                                    24
-                                ],
-                                "$toggle_bg_texture": "textures/ui/toggle_button/left_bg",
-                                "$toggle_bg_offset": [
-                                    0,
-                                    0
-                                ],
-                                "$toggle_unchecked": "textures/ui/toggle_button/fluid_unchecked",
-                                "$toggle_checked": "textures/ui/toggle_button/fluid_checked",
-                                "$toggle_unchecked_hover": "textures/ui/toggle_button/fluid_unchecked_hover",
-                                "$toggle_checked_hover": "textures/ui/toggle_button/fluid_checked_hover"
-                            }
-                        },
-                        {
-                            "io_gases_toggle@uc.toggle_button": {
-                                "anchor_from": "top_left",
-                                "anchor_to": "top_left",
-                                "size": [
-                                    24,
-                                    24
-                                ],
-                                "offset": [
-                                    -23,
-                                    56
-                                ],
-                                "visible": "$has_gas_io",
-                                "$toggle_name": "$io_config_tabs_name",
-                                "$toggle_layer": 3,
-                                "$toggle_index": 2,
-                                "$toggle_group": true,
-                                "$toggle_default_state": "$io_gases_default",
-                                "$toggle_group_default_selected": "$io_default_tab_index",
-                                "$toggle_hover_text": "ui.utilitycraft:machine_view.gases",
-                                "$toggle_checked_hover_text": "ui.utilitycraft:machine_view.gases",
-                                "$toggle_hover_text_localize": true,
-                                "$toggle_checked_hover_text_localize": true,
-                                "$toggle_control_name": "$io_gases_toggle_control_name",
-                                "$toggle_size": [
-                                    18,
-                                    18
-                                ],
-                                "$has_toggle_bg": true,
-                                "$toggle_bg_size": [
-                                    24,
-                                    24
-                                ],
-                                "$toggle_bg_texture": "textures/ui/toggle_button/left_bg",
-                                "$toggle_bg_offset": [
-                                    0,
-                                    0
-                                ],
-                                "$toggle_unchecked": "textures/ui/toggle_button/gas_unchecked",
-                                "$toggle_checked": "textures/ui/toggle_button/gas_checked",
-                                "$toggle_unchecked_hover": "textures/ui/toggle_button/gas_unchecked_hover",
-                                "$toggle_checked_hover": "textures/ui/toggle_button/gas_checked_hover"
                             }
                         },
                         {
@@ -4625,9 +5119,33 @@
             109,
             27
         ],
+        "$info_toggle_layer|default": -3,
+        "$info_toggle_close_layer|default": 31,
+        "$pocket_info_toggle_offset|default": [
+            90,
+            27
+        ],
+        "$pocket_info_toggle_layer|default": -3,
+        "$pocket_info_toggle_close_layer|default": 31,
         "$info_panel_size|default": [
             80,
             108
+        ],
+        "$info_panel_offset|default": [
+            137,
+            51
+        ],
+        "variables": [
+            {
+                "requires": "$pocket_screen",
+                "$info_toggle_offset": "$pocket_info_toggle_offset",
+                "$info_toggle_layer": "$pocket_info_toggle_layer",
+                "$info_toggle_close_layer": "$pocket_info_toggle_close_layer",
+                "$info_panel_offset": [
+                    0,
+                    51
+                ]
+            }
         ],
         "controls": [
             {
@@ -4636,7 +5154,7 @@
                     "anchor_to": "top_middle",
                     "offset": "$info_toggle_offset",
                     "$toggle_name": "$right_machine_tabs_name",
-                    "$toggle_layer": -3,
+                    "$toggle_layer": "$info_toggle_layer",
                     "$toggle_index": 3,
                     "$toggle_group": true,
                     "$toggle_default_state": false,
@@ -4671,7 +5189,7 @@
                     "anchor_to": "top_middle",
                     "offset": "$info_toggle_offset",
                     "$toggle_name": "$right_machine_tabs_name",
-                    "$toggle_layer": 31,
+                    "$toggle_layer": "$info_toggle_close_layer",
                     "$toggle_index": 0,
                     "$toggle_group": true,
                     "$toggle_default_state": false,
@@ -4715,10 +5233,7 @@
                     "anchor_from": "top_middle",
                     "anchor_to": "top_middle",
                     "size": "$info_panel_size",
-                    "offset": [
-                        137,
-                        51
-                    ],
+                    "offset": "$info_panel_offset",
                     "layer": 30,
                     "collection_name": "container_items",
                     "$item_collection_name": "container_items",
