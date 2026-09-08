@@ -12,6 +12,10 @@
 					4,
 					5,
 					6
+				],
+				"utilitycraft:indicator_active": [
+					false,
+					true
 				]
 			},
 			"menu_category": {
@@ -23,19 +27,12 @@
 				"energy_cap": 4096000,
 				"rate_speed_base": 1600
 			},
-			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:geometry": "geometry.utilitycraft_basic_battery_tier_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_battery_expert_0_side",
-					"render_method": "alpha_test"
-				},
-				"up": {
-					"texture": "utilitycraft_battery_expert_0_up",
-					"render_method": "alpha_test"
-				},
-				"down": {
-					"texture": "utilitycraft_battery_expert_0_down",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_expert_battery_tier_v2_capacity_0_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:tick": {
@@ -50,146 +47,214 @@
 			"minecraft:destructible_by_explosion": false,
 			"tag:dorios:energy": {},
 			"tag:dorios:generator": {},
-			"tag:minecraft:is_pickaxe_item_destructible": {}
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"utilitycraft:crafted_indicator": {
+				"mode": "battery"
+			}
 		},
 		"permutations": [
 			{
-				"condition": "q.block_state('utilitycraft:capacity') == 0",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "utilitycraft_battery_expert_0_side",
-							"render_method": "alpha_test"
-						},
-						"up": {
-							"texture": "utilitycraft_battery_expert_0_up",
-							"render_method": "alpha_test"
-						},
-						"down": {
-							"texture": "utilitycraft_battery_expert_0_down",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
 				"condition": "q.block_state('utilitycraft:capacity') == 1",
 				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "utilitycraft_battery_expert_1_side",
-							"render_method": "alpha_test"
-						},
-						"up": {
-							"texture": "utilitycraft_battery_expert_1_up",
-							"render_method": "alpha_test"
-						},
-						"down": {
-							"texture": "utilitycraft_battery_expert_1_down",
-							"render_method": "alpha_test"
-						}
-					},
 					"minecraft:light_emission": 1
 				}
 			},
 			{
 				"condition": "q.block_state('utilitycraft:capacity') == 2",
 				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "utilitycraft_battery_expert_2_side",
-							"render_method": "alpha_test"
-						},
-						"up": {
-							"texture": "utilitycraft_battery_expert_2_up",
-							"render_method": "alpha_test"
-						},
-						"down": {
-							"texture": "utilitycraft_battery_expert_2_down",
-							"render_method": "alpha_test"
-						}
-					},
 					"minecraft:light_emission": 2
 				}
 			},
 			{
 				"condition": "q.block_state('utilitycraft:capacity') == 3",
 				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "utilitycraft_battery_expert_3_side",
-							"render_method": "alpha_test"
-						},
-						"up": {
-							"texture": "utilitycraft_battery_expert_3_up",
-							"render_method": "alpha_test"
-						},
-						"down": {
-							"texture": "utilitycraft_battery_expert_3_down",
-							"render_method": "alpha_test"
-						}
-					},
 					"minecraft:light_emission": 3
 				}
 			},
 			{
 				"condition": "q.block_state('utilitycraft:capacity') == 4",
 				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "utilitycraft_battery_expert_4_side",
-							"render_method": "alpha_test"
-						},
-						"up": {
-							"texture": "utilitycraft_battery_expert_4_up",
-							"render_method": "alpha_test"
-						},
-						"down": {
-							"texture": "utilitycraft_battery_expert_4_down",
-							"render_method": "alpha_test"
-						}
-					},
 					"minecraft:light_emission": 4
 				}
 			},
 			{
 				"condition": "q.block_state('utilitycraft:capacity') == 5",
 				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "utilitycraft_battery_expert_5_side",
-							"render_method": "alpha_test"
-						},
-						"up": {
-							"texture": "utilitycraft_battery_expert_5_up",
-							"render_method": "alpha_test"
-						},
-						"down": {
-							"texture": "utilitycraft_battery_expert_5_down",
-							"render_method": "alpha_test"
-						}
-					},
 					"minecraft:light_emission": 5
 				}
 			},
 			{
 				"condition": "q.block_state('utilitycraft:capacity') == 6",
 				"components": {
+					"minecraft:light_emission": 6
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 0 && q.block_state('utilitycraft:indicator_active') == false",
+				"components": {
 					"minecraft:material_instances": {
 						"*": {
-							"texture": "utilitycraft_battery_expert_6_side",
-							"render_method": "alpha_test"
-						},
-						"up": {
-							"texture": "utilitycraft_battery_expert_6_up",
-							"render_method": "alpha_test"
-						},
-						"down": {
-							"texture": "utilitycraft_battery_expert_6_down",
-							"render_method": "alpha_test"
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_0_off",
+							"render_method": "opaque",
+							"ambient_occlusion": true
 						}
-					},
-					"minecraft:light_emission": 6
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 0 && q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_0_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 1 && q.block_state('utilitycraft:indicator_active') == false",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_1_off",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 1 && q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_1_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 2 && q.block_state('utilitycraft:indicator_active') == false",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_2_off",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 2 && q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 3 && q.block_state('utilitycraft:indicator_active') == false",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_3_off",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 3 && q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_3_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 4 && q.block_state('utilitycraft:indicator_active') == false",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_4_off",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 4 && q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_4_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 5 && q.block_state('utilitycraft:indicator_active') == false",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_5_off",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 5 && q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_5_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 6 && q.block_state('utilitycraft:indicator_active') == false",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_6_off",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:capacity') == 6 && q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_expert_battery_tier_v2_capacity_6_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
 				}
 			}
 		]

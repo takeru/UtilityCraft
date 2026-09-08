@@ -3447,6 +3447,342 @@
 		},
 		"utilitycraft_exhibitor_direction_v2_on": {
 			"textures": "textures/blocks/machines/direction_v2/exhibitor_on"
+		},
+		"utilitycraft_basic_furnator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_furnator_off"
+		},
+		"utilitycraft_basic_furnator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_furnator_on"
+		},
+		"utilitycraft_advanced_furnator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_furnator_off"
+		},
+		"utilitycraft_advanced_furnator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_furnator_on"
+		},
+		"utilitycraft_expert_furnator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_furnator_off"
+		},
+		"utilitycraft_expert_furnator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_furnator_on"
+		},
+		"utilitycraft_ultimate_furnator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_furnator_off"
+		},
+		"utilitycraft_ultimate_furnator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_furnator_on"
+		},
+		"utilitycraft_basic_magmator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_magmator_off"
+		},
+		"utilitycraft_basic_magmator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_magmator_on"
+		},
+		"utilitycraft_advanced_magmator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_magmator_off"
+		},
+		"utilitycraft_advanced_magmator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_magmator_on"
+		},
+		"utilitycraft_expert_magmator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_magmator_off"
+		},
+		"utilitycraft_expert_magmator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_magmator_on"
+		},
+		"utilitycraft_ultimate_magmator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_magmator_off"
+		},
+		"utilitycraft_ultimate_magmator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_magmator_on"
+		},
+		"utilitycraft_basic_thermo_generator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_thermo_generator_off"
+		},
+		"utilitycraft_basic_thermo_generator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_thermo_generator_on"
+		},
+		"utilitycraft_advanced_thermo_generator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_thermo_generator_off"
+		},
+		"utilitycraft_advanced_thermo_generator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_thermo_generator_on"
+		},
+		"utilitycraft_expert_thermo_generator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_thermo_generator_off"
+		},
+		"utilitycraft_expert_thermo_generator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_thermo_generator_on"
+		},
+		"utilitycraft_ultimate_thermo_generator_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_thermo_generator_off"
+		},
+		"utilitycraft_ultimate_thermo_generator_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_thermo_generator_on"
+		},
+		"utilitycraft_basic_solar_panel_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_solar_panel_off"
+		},
+		"utilitycraft_basic_solar_panel_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_solar_panel_on"
+		},
+		"utilitycraft_advanced_solar_panel_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_solar_panel_off"
+		},
+		"utilitycraft_advanced_solar_panel_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_solar_panel_on"
+		},
+		"utilitycraft_expert_solar_panel_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_solar_panel_off"
+		},
+		"utilitycraft_expert_solar_panel_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_solar_panel_on"
+		},
+		"utilitycraft_ultimate_solar_panel_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_solar_panel_off"
+		},
+		"utilitycraft_ultimate_solar_panel_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_solar_panel_on"
+		},
+		"utilitycraft_basic_wind_turbine_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_wind_turbine_off"
+		},
+		"utilitycraft_basic_wind_turbine_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_wind_turbine_on"
+		},
+		"utilitycraft_advanced_wind_turbine_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_wind_turbine_off"
+		},
+		"utilitycraft_advanced_wind_turbine_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_wind_turbine_on"
+		},
+		"utilitycraft_expert_wind_turbine_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_wind_turbine_off"
+		},
+		"utilitycraft_expert_wind_turbine_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_wind_turbine_on"
+		},
+		"utilitycraft_ultimate_wind_turbine_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_wind_turbine_off"
+		},
+		"utilitycraft_ultimate_wind_turbine_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_wind_turbine_on"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_0_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_0_off"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_0_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_0_on"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_1_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_1_off"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_1_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_1_on"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_2_off"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_2_on"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_3_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_3_off"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_3_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_3_on"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_4_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_4_off"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_4_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_4_on"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_5_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_5_off"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_5_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_5_on"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_6_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_6_off"
+		},
+		"utilitycraft_basic_battery_tier_v2_capacity_6_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_battery_capacity_6_on"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_0_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_0_off"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_0_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_0_on"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_1_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_1_off"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_1_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_1_on"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_2_off"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_2_on"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_3_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_3_off"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_3_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_3_on"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_4_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_4_off"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_4_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_4_on"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_5_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_5_off"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_5_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_5_on"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_6_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_6_off"
+		},
+		"utilitycraft_advanced_battery_tier_v2_capacity_6_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_battery_capacity_6_on"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_0_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_0_off"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_0_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_0_on"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_1_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_1_off"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_1_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_1_on"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_2_off"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_2_on"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_3_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_3_off"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_3_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_3_on"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_4_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_4_off"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_4_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_4_on"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_5_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_5_off"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_5_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_5_on"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_6_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_6_off"
+		},
+		"utilitycraft_expert_battery_tier_v2_capacity_6_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_battery_capacity_6_on"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_0_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_0_off"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_0_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_0_on"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_1_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_1_off"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_1_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_1_on"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_2_off"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_2_on"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_3_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_3_off"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_3_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_3_on"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_4_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_4_off"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_4_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_4_on"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_5_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_5_off"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_5_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_5_on"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_6_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_6_off"
+		},
+		"utilitycraft_ultimate_battery_tier_v2_capacity_6_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_6_on"
+		},
+		"utilitycraft_basic_energy_transmitter_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_energy_transmitter_off"
+		},
+		"utilitycraft_basic_energy_transmitter_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_energy_transmitter_on"
+		},
+		"utilitycraft_advanced_energy_transmitter_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_energy_transmitter_off"
+		},
+		"utilitycraft_advanced_energy_transmitter_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_energy_transmitter_on"
+		},
+		"utilitycraft_expert_energy_transmitter_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_energy_transmitter_off"
+		},
+		"utilitycraft_expert_energy_transmitter_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_energy_transmitter_on"
+		},
+		"utilitycraft_ultimate_energy_transmitter_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_energy_transmitter_off"
+		},
+		"utilitycraft_ultimate_energy_transmitter_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_energy_transmitter_on"
+		},
+		"utilitycraft_basic_energy_receiver_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/basic_energy_receiver_off"
+		},
+		"utilitycraft_basic_energy_receiver_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/basic_energy_receiver_on"
+		},
+		"utilitycraft_advanced_energy_receiver_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_energy_receiver_off"
+		},
+		"utilitycraft_advanced_energy_receiver_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/advanced_energy_receiver_on"
+		},
+		"utilitycraft_expert_energy_receiver_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/expert_energy_receiver_off"
+		},
+		"utilitycraft_expert_energy_receiver_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/expert_energy_receiver_on"
+		},
+		"utilitycraft_ultimate_energy_receiver_tier_v2_off": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_energy_receiver_off"
+		},
+		"utilitycraft_ultimate_energy_receiver_tier_v2_on": {
+			"textures": "textures/blocks/machines/tier_v2/ultimate_energy_receiver_on"
 		}
 	}
 }

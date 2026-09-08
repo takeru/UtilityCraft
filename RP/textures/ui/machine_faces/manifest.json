@@ -1,0 +1,2034 @@
+{
+  "schema_version": 1,
+  "sizes": [
+    32,
+    64
+  ],
+  "faces": [
+    "north",
+    "south",
+    "west",
+    "east",
+    "up",
+    "down"
+  ],
+  "transparent": true,
+  "projection": "orthographic",
+  "frame_voxels": 16,
+  "lighting": "uniform",
+  "state": "off; batteries use capacity_0_off",
+  "coordinate_space": "unrotated Bedrock model",
+  "top_north_edge": "bottom",
+  "bottom_north_edge": "top",
+  "models": {
+    "advanced_battery": {
+      "ja": "アドバンストバッテリー",
+      "source": "tier-design/v2/runtime/advanced_battery",
+      "geometry_sha256": "7369974a78129413c24ad8e7bee2c437998b92db66a57e69db8fdc4951c1a035",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_battery/32/up",
+          "64": "textures/ui/machine_faces/advanced_battery/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_battery/32/west",
+          "64": "textures/ui/machine_faces/advanced_battery/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_battery/32/north",
+          "64": "textures/ui/machine_faces/advanced_battery/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_battery/32/east",
+          "64": "textures/ui/machine_faces/advanced_battery/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_battery/32/down",
+          "64": "textures/ui/machine_faces/advanced_battery/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_battery/32/south",
+          "64": "textures/ui/machine_faces/advanced_battery/64/south"
+        }
+      }
+    },
+    "advanced_energy_receiver": {
+      "ja": "アドバンストエネルギー受信機",
+      "source": "tier-design/v2/runtime/advanced_energy_receiver",
+      "geometry_sha256": "ea00d0b1c9da74d5b27cdbb7887aaef7dbea712405d934aec1439f8d0e80fd0b",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_energy_receiver/32/up",
+          "64": "textures/ui/machine_faces/advanced_energy_receiver/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_energy_receiver/32/west",
+          "64": "textures/ui/machine_faces/advanced_energy_receiver/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_energy_receiver/32/north",
+          "64": "textures/ui/machine_faces/advanced_energy_receiver/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_energy_receiver/32/east",
+          "64": "textures/ui/machine_faces/advanced_energy_receiver/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_energy_receiver/32/down",
+          "64": "textures/ui/machine_faces/advanced_energy_receiver/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_energy_receiver/32/south",
+          "64": "textures/ui/machine_faces/advanced_energy_receiver/64/south"
+        }
+      }
+    },
+    "advanced_energy_transmitter": {
+      "ja": "アドバンストエネルギー送信機",
+      "source": "tier-design/v2/runtime/advanced_energy_transmitter",
+      "geometry_sha256": "eb56c46d68fc6c87e8c9a65fd797dcfbf0dc1c4719bc4cae072e8d4b5b56b080",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_energy_transmitter/32/up",
+          "64": "textures/ui/machine_faces/advanced_energy_transmitter/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_energy_transmitter/32/west",
+          "64": "textures/ui/machine_faces/advanced_energy_transmitter/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_energy_transmitter/32/north",
+          "64": "textures/ui/machine_faces/advanced_energy_transmitter/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_energy_transmitter/32/east",
+          "64": "textures/ui/machine_faces/advanced_energy_transmitter/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_energy_transmitter/32/down",
+          "64": "textures/ui/machine_faces/advanced_energy_transmitter/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_energy_transmitter/32/south",
+          "64": "textures/ui/machine_faces/advanced_energy_transmitter/64/south"
+        }
+      }
+    },
+    "advanced_furnator": {
+      "ja": "アドバンスト燃焼発電機",
+      "source": "tier-design/v2/runtime/advanced_furnator",
+      "geometry_sha256": "89d5bc8f92485903b3870c83f382808a296233831dfe99136cec790ba393a9c0",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_furnator/32/up",
+          "64": "textures/ui/machine_faces/advanced_furnator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_furnator/32/west",
+          "64": "textures/ui/machine_faces/advanced_furnator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_furnator/32/north",
+          "64": "textures/ui/machine_faces/advanced_furnator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_furnator/32/east",
+          "64": "textures/ui/machine_faces/advanced_furnator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_furnator/32/down",
+          "64": "textures/ui/machine_faces/advanced_furnator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_furnator/32/south",
+          "64": "textures/ui/machine_faces/advanced_furnator/64/south"
+        }
+      }
+    },
+    "advanced_magmator": {
+      "ja": "アドバンスト溶岩発電機",
+      "source": "tier-design/v2/runtime/advanced_magmator",
+      "geometry_sha256": "d2813b1fdf14576e9fc58ca336e665b307adb2923b7c6fa1c4f5bf469b3c1d6f",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_magmator/32/up",
+          "64": "textures/ui/machine_faces/advanced_magmator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_magmator/32/west",
+          "64": "textures/ui/machine_faces/advanced_magmator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_magmator/32/north",
+          "64": "textures/ui/machine_faces/advanced_magmator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_magmator/32/east",
+          "64": "textures/ui/machine_faces/advanced_magmator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_magmator/32/down",
+          "64": "textures/ui/machine_faces/advanced_magmator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_magmator/32/south",
+          "64": "textures/ui/machine_faces/advanced_magmator/64/south"
+        }
+      }
+    },
+    "advanced_solar_panel": {
+      "ja": "アドバンストソーラーパネル",
+      "source": "tier-design/v2/runtime/advanced_solar_panel",
+      "geometry_sha256": "be7833f9b24f7528303ff1a1701ec59cefdf1596c1676cdb06833c208accc666",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_solar_panel/32/up",
+          "64": "textures/ui/machine_faces/advanced_solar_panel/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_solar_panel/32/west",
+          "64": "textures/ui/machine_faces/advanced_solar_panel/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_solar_panel/32/north",
+          "64": "textures/ui/machine_faces/advanced_solar_panel/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_solar_panel/32/east",
+          "64": "textures/ui/machine_faces/advanced_solar_panel/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_solar_panel/32/down",
+          "64": "textures/ui/machine_faces/advanced_solar_panel/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_solar_panel/32/south",
+          "64": "textures/ui/machine_faces/advanced_solar_panel/64/south"
+        }
+      }
+    },
+    "advanced_thermo_generator": {
+      "ja": "アドバンスト熱発電機",
+      "source": "tier-design/v2/runtime/advanced_thermo_generator",
+      "geometry_sha256": "1a81d39a3d82e224fed49fbf39ee53471d54d5e99a68c78ba79e9cb413dbe6c2",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_thermo_generator/32/up",
+          "64": "textures/ui/machine_faces/advanced_thermo_generator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_thermo_generator/32/west",
+          "64": "textures/ui/machine_faces/advanced_thermo_generator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_thermo_generator/32/north",
+          "64": "textures/ui/machine_faces/advanced_thermo_generator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_thermo_generator/32/east",
+          "64": "textures/ui/machine_faces/advanced_thermo_generator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_thermo_generator/32/down",
+          "64": "textures/ui/machine_faces/advanced_thermo_generator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_thermo_generator/32/south",
+          "64": "textures/ui/machine_faces/advanced_thermo_generator/64/south"
+        }
+      }
+    },
+    "advanced_wind_turbine": {
+      "ja": "アドバンスト風力タービン",
+      "source": "tier-design/v2/runtime/advanced_wind_turbine",
+      "geometry_sha256": "44192ee18a5a537c7e8e51e34217df48fa42d452d7dd5fbb1ce176e0e1cd2752",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/advanced_wind_turbine/32/up",
+          "64": "textures/ui/machine_faces/advanced_wind_turbine/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/advanced_wind_turbine/32/west",
+          "64": "textures/ui/machine_faces/advanced_wind_turbine/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/advanced_wind_turbine/32/north",
+          "64": "textures/ui/machine_faces/advanced_wind_turbine/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/advanced_wind_turbine/32/east",
+          "64": "textures/ui/machine_faces/advanced_wind_turbine/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/advanced_wind_turbine/32/down",
+          "64": "textures/ui/machine_faces/advanced_wind_turbine/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/advanced_wind_turbine/32/south",
+          "64": "textures/ui/machine_faces/advanced_wind_turbine/64/south"
+        }
+      }
+    },
+    "assembler": {
+      "ja": "組立機",
+      "source": "direction-status/v2/assembler",
+      "geometry_sha256": "68915a1c19c4adafa1139b65125d318e8c46d0e0edb8fde4aebd071198677f04",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/assembler/32/up",
+          "64": "textures/ui/machine_faces/assembler/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/assembler/32/west",
+          "64": "textures/ui/machine_faces/assembler/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/assembler/32/north",
+          "64": "textures/ui/machine_faces/assembler/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/assembler/32/east",
+          "64": "textures/ui/machine_faces/assembler/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/assembler/32/down",
+          "64": "textures/ui/machine_faces/assembler/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/assembler/32/south",
+          "64": "textures/ui/machine_faces/assembler/64/south"
+        }
+      }
+    },
+    "autofisher": {
+      "ja": "自動釣り機",
+      "source": "direction-status/v2/autofisher",
+      "geometry_sha256": "4f45caf55ab5dca13cd3f82f48ad7df9da49debca01450af1ff10147d7accff0",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/autofisher/32/up",
+          "64": "textures/ui/machine_faces/autofisher/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/autofisher/32/west",
+          "64": "textures/ui/machine_faces/autofisher/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/autofisher/32/north",
+          "64": "textures/ui/machine_faces/autofisher/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/autofisher/32/east",
+          "64": "textures/ui/machine_faces/autofisher/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/autofisher/32/down",
+          "64": "textures/ui/machine_faces/autofisher/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/autofisher/32/south",
+          "64": "textures/ui/machine_faces/autofisher/64/south"
+        }
+      }
+    },
+    "autosieve": {
+      "ja": "自動ふるい",
+      "source": "direction-status/v2/autosieve",
+      "geometry_sha256": "3406380a570cd0139e95b194ae20dc5c0656b15d01e17b40409b6355c18a0a86",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/autosieve/32/up",
+          "64": "textures/ui/machine_faces/autosieve/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/autosieve/32/west",
+          "64": "textures/ui/machine_faces/autosieve/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/autosieve/32/north",
+          "64": "textures/ui/machine_faces/autosieve/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/autosieve/32/east",
+          "64": "textures/ui/machine_faces/autosieve/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/autosieve/32/down",
+          "64": "textures/ui/machine_faces/autosieve/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/autosieve/32/south",
+          "64": "textures/ui/machine_faces/autosieve/64/south"
+        }
+      }
+    },
+    "basic_battery": {
+      "ja": "ベーシックバッテリー",
+      "source": "tier-design/v2/runtime/basic_battery",
+      "geometry_sha256": "7369974a78129413c24ad8e7bee2c437998b92db66a57e69db8fdc4951c1a035",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_battery/32/up",
+          "64": "textures/ui/machine_faces/basic_battery/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_battery/32/west",
+          "64": "textures/ui/machine_faces/basic_battery/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_battery/32/north",
+          "64": "textures/ui/machine_faces/basic_battery/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_battery/32/east",
+          "64": "textures/ui/machine_faces/basic_battery/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_battery/32/down",
+          "64": "textures/ui/machine_faces/basic_battery/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_battery/32/south",
+          "64": "textures/ui/machine_faces/basic_battery/64/south"
+        }
+      }
+    },
+    "basic_energy_receiver": {
+      "ja": "ベーシックエネルギー受信機",
+      "source": "tier-design/v2/runtime/basic_energy_receiver",
+      "geometry_sha256": "ea00d0b1c9da74d5b27cdbb7887aaef7dbea712405d934aec1439f8d0e80fd0b",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_energy_receiver/32/up",
+          "64": "textures/ui/machine_faces/basic_energy_receiver/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_energy_receiver/32/west",
+          "64": "textures/ui/machine_faces/basic_energy_receiver/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_energy_receiver/32/north",
+          "64": "textures/ui/machine_faces/basic_energy_receiver/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_energy_receiver/32/east",
+          "64": "textures/ui/machine_faces/basic_energy_receiver/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_energy_receiver/32/down",
+          "64": "textures/ui/machine_faces/basic_energy_receiver/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_energy_receiver/32/south",
+          "64": "textures/ui/machine_faces/basic_energy_receiver/64/south"
+        }
+      }
+    },
+    "basic_energy_transmitter": {
+      "ja": "ベーシックエネルギー送信機",
+      "source": "tier-design/v2/runtime/basic_energy_transmitter",
+      "geometry_sha256": "eb56c46d68fc6c87e8c9a65fd797dcfbf0dc1c4719bc4cae072e8d4b5b56b080",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_energy_transmitter/32/up",
+          "64": "textures/ui/machine_faces/basic_energy_transmitter/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_energy_transmitter/32/west",
+          "64": "textures/ui/machine_faces/basic_energy_transmitter/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_energy_transmitter/32/north",
+          "64": "textures/ui/machine_faces/basic_energy_transmitter/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_energy_transmitter/32/east",
+          "64": "textures/ui/machine_faces/basic_energy_transmitter/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_energy_transmitter/32/down",
+          "64": "textures/ui/machine_faces/basic_energy_transmitter/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_energy_transmitter/32/south",
+          "64": "textures/ui/machine_faces/basic_energy_transmitter/64/south"
+        }
+      }
+    },
+    "basic_furnator": {
+      "ja": "ベーシック燃焼発電機",
+      "source": "tier-design/v2/runtime/basic_furnator",
+      "geometry_sha256": "89d5bc8f92485903b3870c83f382808a296233831dfe99136cec790ba393a9c0",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_furnator/32/up",
+          "64": "textures/ui/machine_faces/basic_furnator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_furnator/32/west",
+          "64": "textures/ui/machine_faces/basic_furnator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_furnator/32/north",
+          "64": "textures/ui/machine_faces/basic_furnator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_furnator/32/east",
+          "64": "textures/ui/machine_faces/basic_furnator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_furnator/32/down",
+          "64": "textures/ui/machine_faces/basic_furnator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_furnator/32/south",
+          "64": "textures/ui/machine_faces/basic_furnator/64/south"
+        }
+      }
+    },
+    "basic_magmator": {
+      "ja": "ベーシック溶岩発電機",
+      "source": "tier-design/v2/runtime/basic_magmator",
+      "geometry_sha256": "d2813b1fdf14576e9fc58ca336e665b307adb2923b7c6fa1c4f5bf469b3c1d6f",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_magmator/32/up",
+          "64": "textures/ui/machine_faces/basic_magmator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_magmator/32/west",
+          "64": "textures/ui/machine_faces/basic_magmator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_magmator/32/north",
+          "64": "textures/ui/machine_faces/basic_magmator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_magmator/32/east",
+          "64": "textures/ui/machine_faces/basic_magmator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_magmator/32/down",
+          "64": "textures/ui/machine_faces/basic_magmator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_magmator/32/south",
+          "64": "textures/ui/machine_faces/basic_magmator/64/south"
+        }
+      }
+    },
+    "basic_solar_panel": {
+      "ja": "ベーシックソーラーパネル",
+      "source": "tier-design/v2/runtime/basic_solar_panel",
+      "geometry_sha256": "be7833f9b24f7528303ff1a1701ec59cefdf1596c1676cdb06833c208accc666",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_solar_panel/32/up",
+          "64": "textures/ui/machine_faces/basic_solar_panel/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_solar_panel/32/west",
+          "64": "textures/ui/machine_faces/basic_solar_panel/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_solar_panel/32/north",
+          "64": "textures/ui/machine_faces/basic_solar_panel/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_solar_panel/32/east",
+          "64": "textures/ui/machine_faces/basic_solar_panel/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_solar_panel/32/down",
+          "64": "textures/ui/machine_faces/basic_solar_panel/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_solar_panel/32/south",
+          "64": "textures/ui/machine_faces/basic_solar_panel/64/south"
+        }
+      }
+    },
+    "basic_thermo_generator": {
+      "ja": "ベーシック熱発電機",
+      "source": "tier-design/v2/runtime/basic_thermo_generator",
+      "geometry_sha256": "1a81d39a3d82e224fed49fbf39ee53471d54d5e99a68c78ba79e9cb413dbe6c2",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_thermo_generator/32/up",
+          "64": "textures/ui/machine_faces/basic_thermo_generator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_thermo_generator/32/west",
+          "64": "textures/ui/machine_faces/basic_thermo_generator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_thermo_generator/32/north",
+          "64": "textures/ui/machine_faces/basic_thermo_generator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_thermo_generator/32/east",
+          "64": "textures/ui/machine_faces/basic_thermo_generator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_thermo_generator/32/down",
+          "64": "textures/ui/machine_faces/basic_thermo_generator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_thermo_generator/32/south",
+          "64": "textures/ui/machine_faces/basic_thermo_generator/64/south"
+        }
+      }
+    },
+    "basic_wind_turbine": {
+      "ja": "ベーシック風力タービン",
+      "source": "tier-design/v2/runtime/basic_wind_turbine",
+      "geometry_sha256": "44192ee18a5a537c7e8e51e34217df48fa42d452d7dd5fbb1ce176e0e1cd2752",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/basic_wind_turbine/32/up",
+          "64": "textures/ui/machine_faces/basic_wind_turbine/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/basic_wind_turbine/32/west",
+          "64": "textures/ui/machine_faces/basic_wind_turbine/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/basic_wind_turbine/32/north",
+          "64": "textures/ui/machine_faces/basic_wind_turbine/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/basic_wind_turbine/32/east",
+          "64": "textures/ui/machine_faces/basic_wind_turbine/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/basic_wind_turbine/32/down",
+          "64": "textures/ui/machine_faces/basic_wind_turbine/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/basic_wind_turbine/32/south",
+          "64": "textures/ui/machine_faces/basic_wind_turbine/64/south"
+        }
+      }
+    },
+    "block_breaker": {
+      "ja": "ブロック破壊機",
+      "source": "direction-status/v2/block_breaker",
+      "geometry_sha256": "8dac7e39421bf50d424783e1c0ed47f9e55190ee6051351f7ee550c1e0fbc9b2",
+      "fixed_orientation": false,
+      "model_front": "south",
+      "visual_faces": {
+        "front": "south",
+        "back": "north",
+        "left": "east",
+        "right": "west",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/block_breaker/32/up",
+          "64": "textures/ui/machine_faces/block_breaker/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/block_breaker/32/west",
+          "64": "textures/ui/machine_faces/block_breaker/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/block_breaker/32/north",
+          "64": "textures/ui/machine_faces/block_breaker/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/block_breaker/32/east",
+          "64": "textures/ui/machine_faces/block_breaker/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/block_breaker/32/down",
+          "64": "textures/ui/machine_faces/block_breaker/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/block_breaker/32/south",
+          "64": "textures/ui/machine_faces/block_breaker/64/south"
+        }
+      }
+    },
+    "block_placer": {
+      "ja": "ブロック設置機",
+      "source": "direction-status/v2/block_placer",
+      "geometry_sha256": "b29ad691eb3b7335f3da192c5177cb99d04b1759498179d138fc3866e1dc1d83",
+      "fixed_orientation": false,
+      "model_front": "south",
+      "visual_faces": {
+        "front": "south",
+        "back": "north",
+        "left": "east",
+        "right": "west",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/block_placer/32/up",
+          "64": "textures/ui/machine_faces/block_placer/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/block_placer/32/west",
+          "64": "textures/ui/machine_faces/block_placer/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/block_placer/32/north",
+          "64": "textures/ui/machine_faces/block_placer/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/block_placer/32/east",
+          "64": "textures/ui/machine_faces/block_placer/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/block_placer/32/down",
+          "64": "textures/ui/machine_faces/block_placer/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/block_placer/32/south",
+          "64": "textures/ui/machine_faces/block_placer/64/south"
+        }
+      }
+    },
+    "crusher": {
+      "ja": "粉砕機",
+      "source": "direction-status/v2/crusher",
+      "geometry_sha256": "d6293979d2c2b81b4d4090be52bb7fa72fe13eef82ff4295410ce7d2ed993292",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/crusher/32/up",
+          "64": "textures/ui/machine_faces/crusher/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/crusher/32/west",
+          "64": "textures/ui/machine_faces/crusher/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/crusher/32/north",
+          "64": "textures/ui/machine_faces/crusher/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/crusher/32/east",
+          "64": "textures/ui/machine_faces/crusher/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/crusher/32/down",
+          "64": "textures/ui/machine_faces/crusher/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/crusher/32/south",
+          "64": "textures/ui/machine_faces/crusher/64/south"
+        }
+      }
+    },
+    "digitizer": {
+      "ja": "デジタイザー",
+      "source": "direction-status/v2/digitizer",
+      "geometry_sha256": "b6dbe230ff2f53e6a136b3ada6dad3269fe330acf4c0687a62cc79630707f39a",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/digitizer/32/up",
+          "64": "textures/ui/machine_faces/digitizer/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/digitizer/32/west",
+          "64": "textures/ui/machine_faces/digitizer/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/digitizer/32/north",
+          "64": "textures/ui/machine_faces/digitizer/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/digitizer/32/east",
+          "64": "textures/ui/machine_faces/digitizer/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/digitizer/32/down",
+          "64": "textures/ui/machine_faces/digitizer/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/digitizer/32/south",
+          "64": "textures/ui/machine_faces/digitizer/64/south"
+        }
+      }
+    },
+    "electro_press": {
+      "ja": "電動プレス",
+      "source": "direction-status/v2/electro_press",
+      "geometry_sha256": "cf0059db9e19916ef994544a872e94d90de3e99255016774d1f9e1fcfa6ae22d",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/electro_press/32/up",
+          "64": "textures/ui/machine_faces/electro_press/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/electro_press/32/west",
+          "64": "textures/ui/machine_faces/electro_press/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/electro_press/32/north",
+          "64": "textures/ui/machine_faces/electro_press/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/electro_press/32/east",
+          "64": "textures/ui/machine_faces/electro_press/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/electro_press/32/down",
+          "64": "textures/ui/machine_faces/electro_press/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/electro_press/32/south",
+          "64": "textures/ui/machine_faces/electro_press/64/south"
+        }
+      }
+    },
+    "exhibitor": {
+      "ja": "展示台",
+      "source": "direction-status/v2/exhibitor",
+      "geometry_sha256": "81333082b3d661de7824559225f638d4dcb177e5df13b3d24b86d2a3ebcd21df",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/exhibitor/32/up",
+          "64": "textures/ui/machine_faces/exhibitor/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/exhibitor/32/west",
+          "64": "textures/ui/machine_faces/exhibitor/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/exhibitor/32/north",
+          "64": "textures/ui/machine_faces/exhibitor/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/exhibitor/32/east",
+          "64": "textures/ui/machine_faces/exhibitor/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/exhibitor/32/down",
+          "64": "textures/ui/machine_faces/exhibitor/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/exhibitor/32/south",
+          "64": "textures/ui/machine_faces/exhibitor/64/south"
+        }
+      }
+    },
+    "expert_battery": {
+      "ja": "エキスパートバッテリー",
+      "source": "tier-design/v2/runtime/expert_battery",
+      "geometry_sha256": "7369974a78129413c24ad8e7bee2c437998b92db66a57e69db8fdc4951c1a035",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_battery/32/up",
+          "64": "textures/ui/machine_faces/expert_battery/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_battery/32/west",
+          "64": "textures/ui/machine_faces/expert_battery/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_battery/32/north",
+          "64": "textures/ui/machine_faces/expert_battery/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_battery/32/east",
+          "64": "textures/ui/machine_faces/expert_battery/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_battery/32/down",
+          "64": "textures/ui/machine_faces/expert_battery/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_battery/32/south",
+          "64": "textures/ui/machine_faces/expert_battery/64/south"
+        }
+      }
+    },
+    "expert_energy_receiver": {
+      "ja": "エキスパートエネルギー受信機",
+      "source": "tier-design/v2/runtime/expert_energy_receiver",
+      "geometry_sha256": "ea00d0b1c9da74d5b27cdbb7887aaef7dbea712405d934aec1439f8d0e80fd0b",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_energy_receiver/32/up",
+          "64": "textures/ui/machine_faces/expert_energy_receiver/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_energy_receiver/32/west",
+          "64": "textures/ui/machine_faces/expert_energy_receiver/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_energy_receiver/32/north",
+          "64": "textures/ui/machine_faces/expert_energy_receiver/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_energy_receiver/32/east",
+          "64": "textures/ui/machine_faces/expert_energy_receiver/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_energy_receiver/32/down",
+          "64": "textures/ui/machine_faces/expert_energy_receiver/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_energy_receiver/32/south",
+          "64": "textures/ui/machine_faces/expert_energy_receiver/64/south"
+        }
+      }
+    },
+    "expert_energy_transmitter": {
+      "ja": "エキスパートエネルギー送信機",
+      "source": "tier-design/v2/runtime/expert_energy_transmitter",
+      "geometry_sha256": "eb56c46d68fc6c87e8c9a65fd797dcfbf0dc1c4719bc4cae072e8d4b5b56b080",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_energy_transmitter/32/up",
+          "64": "textures/ui/machine_faces/expert_energy_transmitter/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_energy_transmitter/32/west",
+          "64": "textures/ui/machine_faces/expert_energy_transmitter/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_energy_transmitter/32/north",
+          "64": "textures/ui/machine_faces/expert_energy_transmitter/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_energy_transmitter/32/east",
+          "64": "textures/ui/machine_faces/expert_energy_transmitter/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_energy_transmitter/32/down",
+          "64": "textures/ui/machine_faces/expert_energy_transmitter/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_energy_transmitter/32/south",
+          "64": "textures/ui/machine_faces/expert_energy_transmitter/64/south"
+        }
+      }
+    },
+    "expert_furnator": {
+      "ja": "エキスパート燃焼発電機",
+      "source": "tier-design/v2/runtime/expert_furnator",
+      "geometry_sha256": "89d5bc8f92485903b3870c83f382808a296233831dfe99136cec790ba393a9c0",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_furnator/32/up",
+          "64": "textures/ui/machine_faces/expert_furnator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_furnator/32/west",
+          "64": "textures/ui/machine_faces/expert_furnator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_furnator/32/north",
+          "64": "textures/ui/machine_faces/expert_furnator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_furnator/32/east",
+          "64": "textures/ui/machine_faces/expert_furnator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_furnator/32/down",
+          "64": "textures/ui/machine_faces/expert_furnator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_furnator/32/south",
+          "64": "textures/ui/machine_faces/expert_furnator/64/south"
+        }
+      }
+    },
+    "expert_magmator": {
+      "ja": "エキスパート溶岩発電機",
+      "source": "tier-design/v2/runtime/expert_magmator",
+      "geometry_sha256": "d2813b1fdf14576e9fc58ca336e665b307adb2923b7c6fa1c4f5bf469b3c1d6f",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_magmator/32/up",
+          "64": "textures/ui/machine_faces/expert_magmator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_magmator/32/west",
+          "64": "textures/ui/machine_faces/expert_magmator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_magmator/32/north",
+          "64": "textures/ui/machine_faces/expert_magmator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_magmator/32/east",
+          "64": "textures/ui/machine_faces/expert_magmator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_magmator/32/down",
+          "64": "textures/ui/machine_faces/expert_magmator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_magmator/32/south",
+          "64": "textures/ui/machine_faces/expert_magmator/64/south"
+        }
+      }
+    },
+    "expert_solar_panel": {
+      "ja": "エキスパートソーラーパネル",
+      "source": "tier-design/v2/runtime/expert_solar_panel",
+      "geometry_sha256": "be7833f9b24f7528303ff1a1701ec59cefdf1596c1676cdb06833c208accc666",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_solar_panel/32/up",
+          "64": "textures/ui/machine_faces/expert_solar_panel/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_solar_panel/32/west",
+          "64": "textures/ui/machine_faces/expert_solar_panel/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_solar_panel/32/north",
+          "64": "textures/ui/machine_faces/expert_solar_panel/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_solar_panel/32/east",
+          "64": "textures/ui/machine_faces/expert_solar_panel/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_solar_panel/32/down",
+          "64": "textures/ui/machine_faces/expert_solar_panel/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_solar_panel/32/south",
+          "64": "textures/ui/machine_faces/expert_solar_panel/64/south"
+        }
+      }
+    },
+    "expert_thermo_generator": {
+      "ja": "エキスパート熱発電機",
+      "source": "tier-design/v2/runtime/expert_thermo_generator",
+      "geometry_sha256": "1a81d39a3d82e224fed49fbf39ee53471d54d5e99a68c78ba79e9cb413dbe6c2",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_thermo_generator/32/up",
+          "64": "textures/ui/machine_faces/expert_thermo_generator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_thermo_generator/32/west",
+          "64": "textures/ui/machine_faces/expert_thermo_generator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_thermo_generator/32/north",
+          "64": "textures/ui/machine_faces/expert_thermo_generator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_thermo_generator/32/east",
+          "64": "textures/ui/machine_faces/expert_thermo_generator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_thermo_generator/32/down",
+          "64": "textures/ui/machine_faces/expert_thermo_generator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_thermo_generator/32/south",
+          "64": "textures/ui/machine_faces/expert_thermo_generator/64/south"
+        }
+      }
+    },
+    "expert_wind_turbine": {
+      "ja": "エキスパート風力タービン",
+      "source": "tier-design/v2/runtime/expert_wind_turbine",
+      "geometry_sha256": "44192ee18a5a537c7e8e51e34217df48fa42d452d7dd5fbb1ce176e0e1cd2752",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/expert_wind_turbine/32/up",
+          "64": "textures/ui/machine_faces/expert_wind_turbine/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/expert_wind_turbine/32/west",
+          "64": "textures/ui/machine_faces/expert_wind_turbine/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/expert_wind_turbine/32/north",
+          "64": "textures/ui/machine_faces/expert_wind_turbine/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/expert_wind_turbine/32/east",
+          "64": "textures/ui/machine_faces/expert_wind_turbine/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/expert_wind_turbine/32/down",
+          "64": "textures/ui/machine_faces/expert_wind_turbine/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/expert_wind_turbine/32/south",
+          "64": "textures/ui/machine_faces/expert_wind_turbine/64/south"
+        }
+      }
+    },
+    "harvester": {
+      "ja": "収穫機",
+      "source": "direction-status/v2/harvester",
+      "geometry_sha256": "8073c03ddfffc898a3ae1c58441098e12ecf43788b454a0f5624927d7c72801a",
+      "fixed_orientation": false,
+      "model_front": "south",
+      "visual_faces": {
+        "front": "south",
+        "back": "north",
+        "left": "east",
+        "right": "west",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/harvester/32/up",
+          "64": "textures/ui/machine_faces/harvester/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/harvester/32/west",
+          "64": "textures/ui/machine_faces/harvester/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/harvester/32/north",
+          "64": "textures/ui/machine_faces/harvester/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/harvester/32/east",
+          "64": "textures/ui/machine_faces/harvester/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/harvester/32/down",
+          "64": "textures/ui/machine_faces/harvester/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/harvester/32/south",
+          "64": "textures/ui/machine_faces/harvester/64/south"
+        }
+      }
+    },
+    "incinerator": {
+      "ja": "焼却機",
+      "source": "direction-status/v2/incinerator",
+      "geometry_sha256": "21fd28a8f8e5009e6e986133febeaa1ad8689935d24ad13a0556663c9d562aca",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/incinerator/32/up",
+          "64": "textures/ui/machine_faces/incinerator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/incinerator/32/west",
+          "64": "textures/ui/machine_faces/incinerator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/incinerator/32/north",
+          "64": "textures/ui/machine_faces/incinerator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/incinerator/32/east",
+          "64": "textures/ui/machine_faces/incinerator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/incinerator/32/down",
+          "64": "textures/ui/machine_faces/incinerator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/incinerator/32/south",
+          "64": "textures/ui/machine_faces/incinerator/64/south"
+        }
+      }
+    },
+    "induction_anvil": {
+      "ja": "誘導金床",
+      "source": "direction-status/v2/induction_anvil",
+      "geometry_sha256": "27e98b3db07d6a24ebc525a114b8464649f846be4ab7b32d84ddeb654770c8b2",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/induction_anvil/32/up",
+          "64": "textures/ui/machine_faces/induction_anvil/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/induction_anvil/32/west",
+          "64": "textures/ui/machine_faces/induction_anvil/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/induction_anvil/32/north",
+          "64": "textures/ui/machine_faces/induction_anvil/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/induction_anvil/32/east",
+          "64": "textures/ui/machine_faces/induction_anvil/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/induction_anvil/32/down",
+          "64": "textures/ui/machine_faces/induction_anvil/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/induction_anvil/32/south",
+          "64": "textures/ui/machine_faces/induction_anvil/64/south"
+        }
+      }
+    },
+    "infuser": {
+      "ja": "注入機",
+      "source": "direction-status/v2/infuser",
+      "geometry_sha256": "cf5e45db19d1d85d0538f114497ec0d19b1f05351f4d85bbdce415be80f200e4",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/infuser/32/up",
+          "64": "textures/ui/machine_faces/infuser/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/infuser/32/west",
+          "64": "textures/ui/machine_faces/infuser/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/infuser/32/north",
+          "64": "textures/ui/machine_faces/infuser/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/infuser/32/east",
+          "64": "textures/ui/machine_faces/infuser/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/infuser/32/down",
+          "64": "textures/ui/machine_faces/infuser/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/infuser/32/south",
+          "64": "textures/ui/machine_faces/infuser/64/south"
+        }
+      }
+    },
+    "magmatic_chamber": {
+      "ja": "マグマチャンバー",
+      "source": "direction-status/v2/magmatic_chamber",
+      "geometry_sha256": "61f3ff8a2e89cd20f6859af624e8bac1d2a766b8e12da951ce58be53c5a3249d",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/magmatic_chamber/32/up",
+          "64": "textures/ui/machine_faces/magmatic_chamber/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/magmatic_chamber/32/west",
+          "64": "textures/ui/machine_faces/magmatic_chamber/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/magmatic_chamber/32/north",
+          "64": "textures/ui/machine_faces/magmatic_chamber/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/magmatic_chamber/32/east",
+          "64": "textures/ui/machine_faces/magmatic_chamber/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/magmatic_chamber/32/down",
+          "64": "textures/ui/machine_faces/magmatic_chamber/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/magmatic_chamber/32/south",
+          "64": "textures/ui/machine_faces/magmatic_chamber/64/south"
+        }
+      }
+    },
+    "seed_synthesizer": {
+      "ja": "種子合成機",
+      "source": "direction-status/v2/seed_synthesizer",
+      "geometry_sha256": "e4fc258fb5a120d895a4eaa593f20cfe396cf8964a60f049558e7325b4550ba7",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/seed_synthesizer/32/up",
+          "64": "textures/ui/machine_faces/seed_synthesizer/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/seed_synthesizer/32/west",
+          "64": "textures/ui/machine_faces/seed_synthesizer/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/seed_synthesizer/32/north",
+          "64": "textures/ui/machine_faces/seed_synthesizer/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/seed_synthesizer/32/east",
+          "64": "textures/ui/machine_faces/seed_synthesizer/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/seed_synthesizer/32/down",
+          "64": "textures/ui/machine_faces/seed_synthesizer/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/seed_synthesizer/32/south",
+          "64": "textures/ui/machine_faces/seed_synthesizer/64/south"
+        }
+      }
+    },
+    "ultimate_battery": {
+      "ja": "アルティメットバッテリー",
+      "source": "tier-design/v2/runtime/ultimate_battery",
+      "geometry_sha256": "7369974a78129413c24ad8e7bee2c437998b92db66a57e69db8fdc4951c1a035",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_battery/32/up",
+          "64": "textures/ui/machine_faces/ultimate_battery/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_battery/32/west",
+          "64": "textures/ui/machine_faces/ultimate_battery/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_battery/32/north",
+          "64": "textures/ui/machine_faces/ultimate_battery/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_battery/32/east",
+          "64": "textures/ui/machine_faces/ultimate_battery/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_battery/32/down",
+          "64": "textures/ui/machine_faces/ultimate_battery/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_battery/32/south",
+          "64": "textures/ui/machine_faces/ultimate_battery/64/south"
+        }
+      }
+    },
+    "ultimate_energy_receiver": {
+      "ja": "アルティメットエネルギー受信機",
+      "source": "tier-design/v2/runtime/ultimate_energy_receiver",
+      "geometry_sha256": "ea00d0b1c9da74d5b27cdbb7887aaef7dbea712405d934aec1439f8d0e80fd0b",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_energy_receiver/32/up",
+          "64": "textures/ui/machine_faces/ultimate_energy_receiver/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_energy_receiver/32/west",
+          "64": "textures/ui/machine_faces/ultimate_energy_receiver/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_energy_receiver/32/north",
+          "64": "textures/ui/machine_faces/ultimate_energy_receiver/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_energy_receiver/32/east",
+          "64": "textures/ui/machine_faces/ultimate_energy_receiver/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_energy_receiver/32/down",
+          "64": "textures/ui/machine_faces/ultimate_energy_receiver/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_energy_receiver/32/south",
+          "64": "textures/ui/machine_faces/ultimate_energy_receiver/64/south"
+        }
+      }
+    },
+    "ultimate_energy_transmitter": {
+      "ja": "アルティメットエネルギー送信機",
+      "source": "tier-design/v2/runtime/ultimate_energy_transmitter",
+      "geometry_sha256": "eb56c46d68fc6c87e8c9a65fd797dcfbf0dc1c4719bc4cae072e8d4b5b56b080",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_energy_transmitter/32/up",
+          "64": "textures/ui/machine_faces/ultimate_energy_transmitter/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_energy_transmitter/32/west",
+          "64": "textures/ui/machine_faces/ultimate_energy_transmitter/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_energy_transmitter/32/north",
+          "64": "textures/ui/machine_faces/ultimate_energy_transmitter/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_energy_transmitter/32/east",
+          "64": "textures/ui/machine_faces/ultimate_energy_transmitter/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_energy_transmitter/32/down",
+          "64": "textures/ui/machine_faces/ultimate_energy_transmitter/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_energy_transmitter/32/south",
+          "64": "textures/ui/machine_faces/ultimate_energy_transmitter/64/south"
+        }
+      }
+    },
+    "ultimate_furnator": {
+      "ja": "アルティメット燃焼発電機",
+      "source": "tier-design/v2/runtime/ultimate_furnator",
+      "geometry_sha256": "89d5bc8f92485903b3870c83f382808a296233831dfe99136cec790ba393a9c0",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_furnator/32/up",
+          "64": "textures/ui/machine_faces/ultimate_furnator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_furnator/32/west",
+          "64": "textures/ui/machine_faces/ultimate_furnator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_furnator/32/north",
+          "64": "textures/ui/machine_faces/ultimate_furnator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_furnator/32/east",
+          "64": "textures/ui/machine_faces/ultimate_furnator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_furnator/32/down",
+          "64": "textures/ui/machine_faces/ultimate_furnator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_furnator/32/south",
+          "64": "textures/ui/machine_faces/ultimate_furnator/64/south"
+        }
+      }
+    },
+    "ultimate_magmator": {
+      "ja": "アルティメット溶岩発電機",
+      "source": "tier-design/v2/runtime/ultimate_magmator",
+      "geometry_sha256": "d2813b1fdf14576e9fc58ca336e665b307adb2923b7c6fa1c4f5bf469b3c1d6f",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_magmator/32/up",
+          "64": "textures/ui/machine_faces/ultimate_magmator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_magmator/32/west",
+          "64": "textures/ui/machine_faces/ultimate_magmator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_magmator/32/north",
+          "64": "textures/ui/machine_faces/ultimate_magmator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_magmator/32/east",
+          "64": "textures/ui/machine_faces/ultimate_magmator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_magmator/32/down",
+          "64": "textures/ui/machine_faces/ultimate_magmator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_magmator/32/south",
+          "64": "textures/ui/machine_faces/ultimate_magmator/64/south"
+        }
+      }
+    },
+    "ultimate_solar_panel": {
+      "ja": "アルティメットソーラーパネル",
+      "source": "tier-design/v2/runtime/ultimate_solar_panel",
+      "geometry_sha256": "be7833f9b24f7528303ff1a1701ec59cefdf1596c1676cdb06833c208accc666",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_solar_panel/32/up",
+          "64": "textures/ui/machine_faces/ultimate_solar_panel/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_solar_panel/32/west",
+          "64": "textures/ui/machine_faces/ultimate_solar_panel/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_solar_panel/32/north",
+          "64": "textures/ui/machine_faces/ultimate_solar_panel/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_solar_panel/32/east",
+          "64": "textures/ui/machine_faces/ultimate_solar_panel/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_solar_panel/32/down",
+          "64": "textures/ui/machine_faces/ultimate_solar_panel/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_solar_panel/32/south",
+          "64": "textures/ui/machine_faces/ultimate_solar_panel/64/south"
+        }
+      }
+    },
+    "ultimate_thermo_generator": {
+      "ja": "アルティメット熱発電機",
+      "source": "tier-design/v2/runtime/ultimate_thermo_generator",
+      "geometry_sha256": "1a81d39a3d82e224fed49fbf39ee53471d54d5e99a68c78ba79e9cb413dbe6c2",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_thermo_generator/32/up",
+          "64": "textures/ui/machine_faces/ultimate_thermo_generator/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_thermo_generator/32/west",
+          "64": "textures/ui/machine_faces/ultimate_thermo_generator/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_thermo_generator/32/north",
+          "64": "textures/ui/machine_faces/ultimate_thermo_generator/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_thermo_generator/32/east",
+          "64": "textures/ui/machine_faces/ultimate_thermo_generator/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_thermo_generator/32/down",
+          "64": "textures/ui/machine_faces/ultimate_thermo_generator/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_thermo_generator/32/south",
+          "64": "textures/ui/machine_faces/ultimate_thermo_generator/64/south"
+        }
+      }
+    },
+    "ultimate_wind_turbine": {
+      "ja": "アルティメット風力タービン",
+      "source": "tier-design/v2/runtime/ultimate_wind_turbine",
+      "geometry_sha256": "44192ee18a5a537c7e8e51e34217df48fa42d452d7dd5fbb1ce176e0e1cd2752",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/ultimate_wind_turbine/32/up",
+          "64": "textures/ui/machine_faces/ultimate_wind_turbine/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/ultimate_wind_turbine/32/west",
+          "64": "textures/ui/machine_faces/ultimate_wind_turbine/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/ultimate_wind_turbine/32/north",
+          "64": "textures/ui/machine_faces/ultimate_wind_turbine/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/ultimate_wind_turbine/32/east",
+          "64": "textures/ui/machine_faces/ultimate_wind_turbine/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/ultimate_wind_turbine/32/down",
+          "64": "textures/ui/machine_faces/ultimate_wind_turbine/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/ultimate_wind_turbine/32/south",
+          "64": "textures/ui/machine_faces/ultimate_wind_turbine/64/south"
+        }
+      }
+    },
+    "way_center": {
+      "ja": "ウェイセンター",
+      "source": "direction-status/v2/way_center",
+      "geometry_sha256": "4e9369745b2fa915d81cd8606496515e92a37e461475455869982abef86f9389",
+      "fixed_orientation": false,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/way_center/32/up",
+          "64": "textures/ui/machine_faces/way_center/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/way_center/32/west",
+          "64": "textures/ui/machine_faces/way_center/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/way_center/32/north",
+          "64": "textures/ui/machine_faces/way_center/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/way_center/32/east",
+          "64": "textures/ui/machine_faces/way_center/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/way_center/32/down",
+          "64": "textures/ui/machine_faces/way_center/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/way_center/32/south",
+          "64": "textures/ui/machine_faces/way_center/64/south"
+        }
+      }
+    },
+    "xp_condenser": {
+      "ja": "XPコンデンサー",
+      "source": "direction-status/v2/xp_condenser",
+      "geometry_sha256": "53444f9ee5eeda32cbdc21872147e444e434ff86f0eb24fec6824ff938e46fb0",
+      "fixed_orientation": true,
+      "model_front": "north",
+      "visual_faces": {
+        "front": "north",
+        "back": "south",
+        "left": "west",
+        "right": "east",
+        "top": "up",
+        "bottom": "down"
+      },
+      "textures": {
+        "up": {
+          "32": "textures/ui/machine_faces/xp_condenser/32/up",
+          "64": "textures/ui/machine_faces/xp_condenser/64/up"
+        },
+        "west": {
+          "32": "textures/ui/machine_faces/xp_condenser/32/west",
+          "64": "textures/ui/machine_faces/xp_condenser/64/west"
+        },
+        "north": {
+          "32": "textures/ui/machine_faces/xp_condenser/32/north",
+          "64": "textures/ui/machine_faces/xp_condenser/64/north"
+        },
+        "east": {
+          "32": "textures/ui/machine_faces/xp_condenser/32/east",
+          "64": "textures/ui/machine_faces/xp_condenser/64/east"
+        },
+        "down": {
+          "32": "textures/ui/machine_faces/xp_condenser/32/down",
+          "64": "textures/ui/machine_faces/xp_condenser/64/down"
+        },
+        "south": {
+          "32": "textures/ui/machine_faces/xp_condenser/32/south",
+          "64": "textures/ui/machine_faces/xp_condenser/64/south"
+        }
+      }
+    }
+  }
+}

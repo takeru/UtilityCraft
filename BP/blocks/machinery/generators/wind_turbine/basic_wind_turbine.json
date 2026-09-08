@@ -42,10 +42,10 @@
 					"max_multiplier": 2
 				}
 			},
-			"minecraft:geometry": "geometry.utilitycraft_basic_wind_turbine_direction_v2",
+			"minecraft:geometry": "geometry.utilitycraft_basic_wind_turbine_tier_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_basic_wind_turbine_direction_v2_off",
+					"texture": "utilitycraft_basic_wind_turbine_tier_v2_off",
 					"render_method": "opaque",
 					"ambient_occlusion": true
 				}
@@ -148,7 +148,7 @@
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
-							"texture": "utilitycraft_basic_wind_turbine_direction_v2_on",
+							"texture": "utilitycraft_basic_wind_turbine_tier_v2_on",
 							"render_method": "opaque",
 							"ambient_occlusion": true
 						}

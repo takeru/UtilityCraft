@@ -19,11 +19,12 @@
 				"rate_speed_base": 16000,
 				"range": 128
 			},
-			"minecraft:geometry": "geometry.energy_transmitter",
+			"minecraft:geometry": "geometry.utilitycraft_basic_energy_transmitter_tier_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_expert_energy_transmitter_off",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_expert_energy_transmitter_tier_v2_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:tick": {
@@ -45,13 +46,19 @@
 			{
 				"condition": "q.block_state('utilitycraft:on') == true ",
 				"components": {
+					"minecraft:light_emission": 4
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:on') == true",
+				"components": {
 					"minecraft:material_instances": {
 						"*": {
-							"texture": "utilitycraft_expert_energy_transmitter_on",
-							"render_method": "alpha_test"
+							"texture": "utilitycraft_expert_energy_transmitter_tier_v2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
 						}
-					},
-					"minecraft:light_emission": 4
+					}
 				}
 			}
 		]

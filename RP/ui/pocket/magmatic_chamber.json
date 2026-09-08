@@ -5135,7 +5135,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_up",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/up",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -5152,7 +5152,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_up",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/up",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -5169,7 +5169,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_up",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/up",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -6740,7 +6740,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_west",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/west",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -6757,7 +6757,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_west",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/west",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -6774,7 +6774,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_west",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/west",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -8345,7 +8345,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_north",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/north",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -8362,7 +8362,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_north",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/north",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -8379,7 +8379,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_north",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/north",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -9950,7 +9950,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_east",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/east",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -9967,7 +9967,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_east",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/east",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -9984,7 +9984,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_east",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/east",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -11555,7 +11555,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_down",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/down",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -11572,7 +11572,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_down",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/down",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -11589,7 +11589,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_down",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/down",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -13160,7 +13160,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_south",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/south",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -13177,7 +13177,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_south",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/south",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -13194,7 +13194,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_south",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/south",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -14836,7 +14836,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_up",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/up",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -14853,7 +14853,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_up",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/up",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -14870,7 +14870,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_up",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/up",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -16441,7 +16441,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_west",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/west",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -16458,7 +16458,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_west",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/west",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -16475,7 +16475,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_west",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/west",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -18046,7 +18046,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_north",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/north",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -18063,7 +18063,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_north",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/north",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -18080,7 +18080,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_north",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/north",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -19651,7 +19651,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_east",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/east",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -19668,7 +19668,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_east",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/east",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -19685,7 +19685,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_east",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/east",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -21256,7 +21256,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_down",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/down",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -21273,7 +21273,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_down",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/down",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -21290,7 +21290,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_down",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/down",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -22861,7 +22861,7 @@
                               {
                                 "default": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_south",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/south",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -22878,7 +22878,7 @@
                               {
                                 "hover": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_south",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/south",
                                   "size": [
                                     "100%",
                                     "100%"
@@ -22895,7 +22895,7 @@
                               {
                                 "pressed": {
                                   "type": "image",
-                                  "texture": "textures/blocks/machines/magmatic_chamber_base_south",
+                                  "texture": "textures/ui/machine_faces/magmatic_chamber/32/south",
                                   "size": [
                                     "100%",
                                     "100%"

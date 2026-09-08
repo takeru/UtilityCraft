@@ -10,6 +10,10 @@
 				"utilitycraft:on": [
 					false,
 					true
+				],
+				"utilitycraft:indicator_active": [
+					false,
+					true
 				]
 			}
 		},
@@ -18,11 +22,12 @@
 				"energy_cap": 1024000,
 				"rate_speed_base": 16000
 			},
-			"minecraft:geometry": "geometry.energy_transmitter",
+			"minecraft:geometry": "geometry.utilitycraft_basic_energy_receiver_tier_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_expert_energy_receiver_off",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_expert_energy_receiver_tier_v2_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:tick": {
@@ -38,19 +43,28 @@
 			"tag:dorios:generator": {},
 			"tag:dorios:energy": {},
 			"tag:dorios:item": {},
-			"tag:minecraft:is_pickaxe_item_destructible": {}
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"utilitycraft:crafted_indicator": {
+				"mode": "receiver"
+			}
 		},
 		"permutations": [
 			{
 				"condition": "q.block_state('utilitycraft:on') == true ",
 				"components": {
+					"minecraft:light_emission": 4
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
 					"minecraft:material_instances": {
 						"*": {
-							"texture": "utilitycraft_expert_energy_receiver_on",
-							"render_method": "alpha_test"
+							"texture": "utilitycraft_expert_energy_receiver_tier_v2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
 						}
-					},
-					"minecraft:light_emission": 4
+					}
 				}
 			}
 		]

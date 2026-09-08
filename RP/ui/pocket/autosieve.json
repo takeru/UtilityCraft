@@ -166287,7 +166287,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_up",
+                            "texture": "textures/ui/machine_faces/autosieve/32/up",
                             "size": [
                               "100%",
                               "100%"
@@ -166304,7 +166304,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_up",
+                            "texture": "textures/ui/machine_faces/autosieve/32/up",
                             "size": [
                               "100%",
                               "100%"
@@ -166321,7 +166321,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_up",
+                            "texture": "textures/ui/machine_faces/autosieve/32/up",
                             "size": [
                               "100%",
                               "100%"
@@ -167892,7 +167892,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_west",
+                            "texture": "textures/ui/machine_faces/autosieve/32/west",
                             "size": [
                               "100%",
                               "100%"
@@ -167909,7 +167909,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_west",
+                            "texture": "textures/ui/machine_faces/autosieve/32/west",
                             "size": [
                               "100%",
                               "100%"
@@ -167926,7 +167926,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_west",
+                            "texture": "textures/ui/machine_faces/autosieve/32/west",
                             "size": [
                               "100%",
                               "100%"
@@ -169497,7 +169497,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_north",
+                            "texture": "textures/ui/machine_faces/autosieve/32/north",
                             "size": [
                               "100%",
                               "100%"
@@ -169514,7 +169514,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_north",
+                            "texture": "textures/ui/machine_faces/autosieve/32/north",
                             "size": [
                               "100%",
                               "100%"
@@ -169531,7 +169531,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_north",
+                            "texture": "textures/ui/machine_faces/autosieve/32/north",
                             "size": [
                               "100%",
                               "100%"
@@ -171102,7 +171102,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_east",
+                            "texture": "textures/ui/machine_faces/autosieve/32/east",
                             "size": [
                               "100%",
                               "100%"
@@ -171119,7 +171119,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_east",
+                            "texture": "textures/ui/machine_faces/autosieve/32/east",
                             "size": [
                               "100%",
                               "100%"
@@ -171136,7 +171136,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_east",
+                            "texture": "textures/ui/machine_faces/autosieve/32/east",
                             "size": [
                               "100%",
                               "100%"
@@ -172707,7 +172707,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_down",
+                            "texture": "textures/ui/machine_faces/autosieve/32/down",
                             "size": [
                               "100%",
                               "100%"
@@ -172724,7 +172724,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_down",
+                            "texture": "textures/ui/machine_faces/autosieve/32/down",
                             "size": [
                               "100%",
                               "100%"
@@ -172741,7 +172741,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_down",
+                            "texture": "textures/ui/machine_faces/autosieve/32/down",
                             "size": [
                               "100%",
                               "100%"
@@ -174312,7 +174312,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_south",
+                            "texture": "textures/ui/machine_faces/autosieve/32/south",
                             "size": [
                               "100%",
                               "100%"
@@ -174329,7 +174329,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_south",
+                            "texture": "textures/ui/machine_faces/autosieve/32/south",
                             "size": [
                               "100%",
                               "100%"
@@ -174346,7 +174346,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/blocks/machines/autosieve_off_south",
+                            "texture": "textures/ui/machine_faces/autosieve/32/south",
                             "size": [
                               "100%",
                               "100%"

@@ -33,35 +33,12 @@
 					"rate_speed_base": 160
 				}
 			},
-			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:geometry": "geometry.utilitycraft_basic_furnator_tier_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_advanced_furnator_off_north",
-					"render_method": "alpha_test"
-				},
-				"north": {
-					"texture": "utilitycraft_advanced_furnator_off_north",
-					"render_method": "alpha_test"
-				},
-				"south": {
-					"texture": "utilitycraft_advanced_furnator_off_south",
-					"render_method": "alpha_test"
-				},
-				"east": {
-					"texture": "utilitycraft_advanced_furnator_off_east",
-					"render_method": "alpha_test"
-				},
-				"west": {
-					"texture": "utilitycraft_advanced_furnator_off_west",
-					"render_method": "alpha_test"
-				},
-				"up": {
-					"texture": "utilitycraft_advanced_furnator_off_up",
-					"render_method": "alpha_test"
-				},
-				"down": {
-					"texture": "utilitycraft_advanced_furnator_off_down",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_advanced_furnator_tier_v2_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:tick": {
@@ -133,37 +110,19 @@
 			{
 				"condition": "q.block_state('utilitycraft:on') == true ",
 				"components": {
-					"minecraft:material_instances": {
-				"*": {
-					"texture": "utilitycraft_advanced_furnator_on_north",
-					"render_method": "alpha_test"
-				},
-				"north": {
-					"texture": "utilitycraft_advanced_furnator_on_north",
-					"render_method": "alpha_test"
-				},
-				"south": {
-					"texture": "utilitycraft_advanced_furnator_on_south",
-					"render_method": "alpha_test"
-				},
-				"east": {
-					"texture": "utilitycraft_advanced_furnator_on_east",
-					"render_method": "alpha_test"
-				},
-				"west": {
-					"texture": "utilitycraft_advanced_furnator_on_west",
-					"render_method": "alpha_test"
-				},
-				"up": {
-					"texture": "utilitycraft_advanced_furnator_on_up",
-					"render_method": "alpha_test"
-				},
-				"down": {
-					"texture": "utilitycraft_advanced_furnator_on_down",
-					"render_method": "alpha_test"
+					"minecraft:light_emission": 4
 				}
 			},
-					"minecraft:light_emission": 4
+			{
+				"condition": "q.block_state('utilitycraft:on') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_advanced_furnator_tier_v2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
 				}
 			}
 		]

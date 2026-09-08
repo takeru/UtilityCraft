@@ -200,176 +200,680 @@
     "blend_frames": false
   },
   {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_furnator_on_pulse",
-    "atlas_tile": "utilitycraft_basic_furnator_direction_v2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_magmator_on_pulse",
-    "atlas_tile": "utilitycraft_basic_magmator_direction_v2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_thermo_generator_on_pulse",
-    "atlas_tile": "utilitycraft_basic_thermo_generator_direction_v2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_solar_panel_on_pulse",
-    "atlas_tile": "utilitycraft_basic_solar_panel_direction_v2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_wind_turbine_on_pulse",
-    "atlas_tile": "utilitycraft_basic_wind_turbine_direction_v2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_battery_capacity_0_on_pulse",
-    "atlas_tile": "utilitycraft_basic_battery_direction_v2_capacity_0_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_battery_capacity_1_on_pulse",
-    "atlas_tile": "utilitycraft_basic_battery_direction_v2_capacity_1_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_battery_capacity_2_on_pulse",
-    "atlas_tile": "utilitycraft_basic_battery_direction_v2_capacity_2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_battery_capacity_3_on_pulse",
-    "atlas_tile": "utilitycraft_basic_battery_direction_v2_capacity_3_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_battery_capacity_4_on_pulse",
-    "atlas_tile": "utilitycraft_basic_battery_direction_v2_capacity_4_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_battery_capacity_5_on_pulse",
-    "atlas_tile": "utilitycraft_basic_battery_direction_v2_capacity_5_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_battery_capacity_6_on_pulse",
-    "atlas_tile": "utilitycraft_basic_battery_direction_v2_capacity_6_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_energy_transmitter_on_pulse",
-    "atlas_tile": "utilitycraft_basic_energy_transmitter_direction_v2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
-    "flipbook_texture": "textures/blocks/machines/direction_v2/basic_energy_receiver_on_pulse",
-    "atlas_tile": "utilitycraft_basic_energy_receiver_direction_v2_on",
-    "ticks_per_frame": 5,
-    "frames": [
-      0,
-      1,
-      2,
-      1
-    ],
-    "blend_frames": false
-  },
-  {
     "flipbook_texture": "textures/blocks/machines/direction_v2/way_center_on_pulse",
     "atlas_tile": "utilitycraft_way_center_direction_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_furnator_on_pulse",
+    "atlas_tile": "utilitycraft_basic_furnator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_furnator_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_furnator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_furnator_on_pulse",
+    "atlas_tile": "utilitycraft_expert_furnator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_furnator_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_furnator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_magmator_on_pulse",
+    "atlas_tile": "utilitycraft_basic_magmator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_magmator_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_magmator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_magmator_on_pulse",
+    "atlas_tile": "utilitycraft_expert_magmator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_magmator_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_magmator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_thermo_generator_on_pulse",
+    "atlas_tile": "utilitycraft_basic_thermo_generator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_thermo_generator_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_thermo_generator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_thermo_generator_on_pulse",
+    "atlas_tile": "utilitycraft_expert_thermo_generator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_thermo_generator_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_thermo_generator_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_solar_panel_on_pulse",
+    "atlas_tile": "utilitycraft_basic_solar_panel_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_solar_panel_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_solar_panel_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_solar_panel_on_pulse",
+    "atlas_tile": "utilitycraft_expert_solar_panel_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_solar_panel_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_solar_panel_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_wind_turbine_on_pulse",
+    "atlas_tile": "utilitycraft_basic_wind_turbine_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_wind_turbine_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_wind_turbine_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_wind_turbine_on_pulse",
+    "atlas_tile": "utilitycraft_expert_wind_turbine_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_wind_turbine_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_wind_turbine_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_battery_capacity_0_on_pulse",
+    "atlas_tile": "utilitycraft_basic_battery_tier_v2_capacity_0_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_battery_capacity_1_on_pulse",
+    "atlas_tile": "utilitycraft_basic_battery_tier_v2_capacity_1_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_battery_capacity_2_on_pulse",
+    "atlas_tile": "utilitycraft_basic_battery_tier_v2_capacity_2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_battery_capacity_3_on_pulse",
+    "atlas_tile": "utilitycraft_basic_battery_tier_v2_capacity_3_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_battery_capacity_4_on_pulse",
+    "atlas_tile": "utilitycraft_basic_battery_tier_v2_capacity_4_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_battery_capacity_5_on_pulse",
+    "atlas_tile": "utilitycraft_basic_battery_tier_v2_capacity_5_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_battery_capacity_6_on_pulse",
+    "atlas_tile": "utilitycraft_basic_battery_tier_v2_capacity_6_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_battery_capacity_0_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_battery_tier_v2_capacity_0_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_battery_capacity_1_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_battery_tier_v2_capacity_1_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_battery_capacity_2_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_battery_tier_v2_capacity_2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_battery_capacity_3_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_battery_tier_v2_capacity_3_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_battery_capacity_4_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_battery_tier_v2_capacity_4_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_battery_capacity_5_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_battery_tier_v2_capacity_5_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_battery_capacity_6_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_battery_tier_v2_capacity_6_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_battery_capacity_0_on_pulse",
+    "atlas_tile": "utilitycraft_expert_battery_tier_v2_capacity_0_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_battery_capacity_1_on_pulse",
+    "atlas_tile": "utilitycraft_expert_battery_tier_v2_capacity_1_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_battery_capacity_2_on_pulse",
+    "atlas_tile": "utilitycraft_expert_battery_tier_v2_capacity_2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_battery_capacity_3_on_pulse",
+    "atlas_tile": "utilitycraft_expert_battery_tier_v2_capacity_3_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_battery_capacity_4_on_pulse",
+    "atlas_tile": "utilitycraft_expert_battery_tier_v2_capacity_4_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_battery_capacity_5_on_pulse",
+    "atlas_tile": "utilitycraft_expert_battery_tier_v2_capacity_5_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_battery_capacity_6_on_pulse",
+    "atlas_tile": "utilitycraft_expert_battery_tier_v2_capacity_6_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_0_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_battery_tier_v2_capacity_0_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_1_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_battery_tier_v2_capacity_1_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_2_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_battery_tier_v2_capacity_2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_3_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_battery_tier_v2_capacity_3_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_4_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_battery_tier_v2_capacity_4_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_5_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_battery_tier_v2_capacity_5_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_battery_capacity_6_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_battery_tier_v2_capacity_6_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_energy_transmitter_on_pulse",
+    "atlas_tile": "utilitycraft_basic_energy_transmitter_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_energy_transmitter_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_energy_transmitter_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_energy_transmitter_on_pulse",
+    "atlas_tile": "utilitycraft_expert_energy_transmitter_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_energy_transmitter_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_energy_transmitter_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/basic_energy_receiver_on_pulse",
+    "atlas_tile": "utilitycraft_basic_energy_receiver_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/advanced_energy_receiver_on_pulse",
+    "atlas_tile": "utilitycraft_advanced_energy_receiver_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/expert_energy_receiver_on_pulse",
+    "atlas_tile": "utilitycraft_expert_energy_receiver_tier_v2_on",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/machines/tier_v2/ultimate_energy_receiver_on_pulse",
+    "atlas_tile": "utilitycraft_ultimate_energy_receiver_tier_v2_on",
     "ticks_per_frame": 5,
     "frames": [
       0,
