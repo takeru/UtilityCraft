@@ -461,7 +461,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/up",
+                            "texture": "textures/blocks/generators/furnator/basic_off_up",
                             "size": [
                               "100%",
                               "100%"
@@ -478,7 +478,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/up",
+                            "texture": "textures/blocks/generators/furnator/basic_off_up",
                             "size": [
                               "100%",
                               "100%"
@@ -495,7 +495,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/up",
+                            "texture": "textures/blocks/generators/furnator/basic_off_up",
                             "size": [
                               "100%",
                               "100%"
@@ -2066,7 +2066,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/west",
+                            "texture": "textures/blocks/generators/furnator/basic_off_west",
                             "size": [
                               "100%",
                               "100%"
@@ -2083,7 +2083,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/west",
+                            "texture": "textures/blocks/generators/furnator/basic_off_west",
                             "size": [
                               "100%",
                               "100%"
@@ -2100,7 +2100,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/west",
+                            "texture": "textures/blocks/generators/furnator/basic_off_west",
                             "size": [
                               "100%",
                               "100%"
@@ -3671,7 +3671,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/north",
+                            "texture": "textures/blocks/generators/furnator/basic_off_north",
                             "size": [
                               "100%",
                               "100%"
@@ -3688,7 +3688,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/north",
+                            "texture": "textures/blocks/generators/furnator/basic_off_north",
                             "size": [
                               "100%",
                               "100%"
@@ -3705,7 +3705,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/north",
+                            "texture": "textures/blocks/generators/furnator/basic_off_north",
                             "size": [
                               "100%",
                               "100%"
@@ -5276,7 +5276,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/east",
+                            "texture": "textures/blocks/generators/furnator/basic_off_east",
                             "size": [
                               "100%",
                               "100%"
@@ -5293,7 +5293,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/east",
+                            "texture": "textures/blocks/generators/furnator/basic_off_east",
                             "size": [
                               "100%",
                               "100%"
@@ -5310,7 +5310,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/east",
+                            "texture": "textures/blocks/generators/furnator/basic_off_east",
                             "size": [
                               "100%",
                               "100%"
@@ -6881,7 +6881,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/down",
+                            "texture": "textures/blocks/generators/furnator/basic_off_down",
                             "size": [
                               "100%",
                               "100%"
@@ -6898,7 +6898,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/down",
+                            "texture": "textures/blocks/generators/furnator/basic_off_down",
                             "size": [
                               "100%",
                               "100%"
@@ -6915,7 +6915,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/down",
+                            "texture": "textures/blocks/generators/furnator/basic_off_down",
                             "size": [
                               "100%",
                               "100%"
@@ -8486,7 +8486,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/south",
+                            "texture": "textures/blocks/generators/furnator/basic_off_south",
                             "size": [
                               "100%",
                               "100%"
@@ -8503,7 +8503,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/south",
+                            "texture": "textures/blocks/generators/furnator/basic_off_south",
                             "size": [
                               "100%",
                               "100%"
@@ -8520,7 +8520,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/basic_furnator/32/south",
+                            "texture": "textures/blocks/generators/furnator/basic_off_south",
                             "size": [
                               "100%",
                               "100%"

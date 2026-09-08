@@ -554,7 +554,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/up",
+                            "texture": "textures/blocks/machines/incinerator_off_up",
                             "size": [
                               "100%",
                               "100%"
@@ -571,7 +571,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/up",
+                            "texture": "textures/blocks/machines/incinerator_off_up",
                             "size": [
                               "100%",
                               "100%"
@@ -588,7 +588,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/up",
+                            "texture": "textures/blocks/machines/incinerator_off_up",
                             "size": [
                               "100%",
                               "100%"
@@ -2159,7 +2159,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/west",
+                            "texture": "textures/blocks/machines/incinerator_off_west",
                             "size": [
                               "100%",
                               "100%"
@@ -2176,7 +2176,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/west",
+                            "texture": "textures/blocks/machines/incinerator_off_west",
                             "size": [
                               "100%",
                               "100%"
@@ -2193,7 +2193,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/west",
+                            "texture": "textures/blocks/machines/incinerator_off_west",
                             "size": [
                               "100%",
                               "100%"
@@ -3764,7 +3764,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/north",
+                            "texture": "textures/blocks/machines/incinerator_off_north",
                             "size": [
                               "100%",
                               "100%"
@@ -3781,7 +3781,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/north",
+                            "texture": "textures/blocks/machines/incinerator_off_north",
                             "size": [
                               "100%",
                               "100%"
@@ -3798,7 +3798,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/north",
+                            "texture": "textures/blocks/machines/incinerator_off_north",
                             "size": [
                               "100%",
                               "100%"
@@ -5369,7 +5369,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/east",
+                            "texture": "textures/blocks/machines/incinerator_off_east",
                             "size": [
                               "100%",
                               "100%"
@@ -5386,7 +5386,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/east",
+                            "texture": "textures/blocks/machines/incinerator_off_east",
                             "size": [
                               "100%",
                               "100%"
@@ -5403,7 +5403,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/east",
+                            "texture": "textures/blocks/machines/incinerator_off_east",
                             "size": [
                               "100%",
                               "100%"
@@ -6974,7 +6974,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/down",
+                            "texture": "textures/blocks/machines/incinerator_off_down",
                             "size": [
                               "100%",
                               "100%"
@@ -6991,7 +6991,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/down",
+                            "texture": "textures/blocks/machines/incinerator_off_down",
                             "size": [
                               "100%",
                               "100%"
@@ -7008,7 +7008,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/down",
+                            "texture": "textures/blocks/machines/incinerator_off_down",
                             "size": [
                               "100%",
                               "100%"
@@ -8579,7 +8579,7 @@
                         {
                           "default": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/south",
+                            "texture": "textures/blocks/machines/incinerator_off_south",
                             "size": [
                               "100%",
                               "100%"
@@ -8596,7 +8596,7 @@
                         {
                           "hover": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/south",
+                            "texture": "textures/blocks/machines/incinerator_off_south",
                             "size": [
                               "100%",
                               "100%"
@@ -8613,7 +8613,7 @@
                         {
                           "pressed": {
                             "type": "image",
-                            "texture": "textures/ui/machine_faces/incinerator/32/south",
+                            "texture": "textures/blocks/machines/incinerator_off_south",
                             "size": [
                               "100%",
                               "100%"
