@@ -1,63 +1,69 @@
 {
-	"format_version": "1.20.80",
-	"minecraft:block": {
-		"description": {
-			"identifier": "utilitycraft:ehxibitor",
-			"menu_category": {
-				"category": "construction"
-			}
-		},
-		"components": {
-			"utilitycraft:ehxibitor": {
-				"entity": {
-					"type": "machine",
-					"name": "ehxibitor",
-					"inventory_size": 4
-				},
-				"machine": {
-					"energy_cap": 1,
-					"rate_speed_base": 0
-				}
-			},
-			"minecraft:geometry": "minecraft:geometry.full_block",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "utilitycraft_machine_case_north",
-					"render_method": "alpha_test"
-				},
-				"north": {
-					"texture": "utilitycraft_machine_case_north",
-					"render_method": "alpha_test"
-				},
-				"south": {
-					"texture": "utilitycraft_machine_case_south",
-					"render_method": "alpha_test"
-				},
-				"east": {
-					"texture": "utilitycraft_machine_case_east",
-					"render_method": "alpha_test"
-				},
-				"west": {
-					"texture": "utilitycraft_machine_case_west",
-					"render_method": "alpha_test"
-				},
-				"up": {
-					"texture": "utilitycraft_machine_case_up",
-					"render_method": "alpha_test"
-				},
-				"down": {
-					"texture": "utilitycraft_machine_case_down",
-					"render_method": "alpha_test"
-				}
-			},
-			"utilitycraft:special_container":{},
-			"utilitycraft:link_node_io":{},
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 1
-			},
-			"minecraft:destructible_by_explosion": false,
-			"tag:dorios:machine": {},
-			"tag:minecraft:is_pickaxe_item_destructible": {}
-		}
-	}
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "utilitycraft:ehxibitor",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "utilitycraft:indicator_active": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "utilitycraft:ehxibitor": {
+        "entity": {
+          "type": "machine",
+          "name": "ehxibitor",
+          "inventory_size": 4
+        },
+        "machine": {
+          "energy_cap": 1,
+          "rate_speed_base": 0
+        }
+      },
+      "minecraft:geometry": "geometry.utilitycraft_exhibitor_direction_v2",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "utilitycraft_exhibitor_direction_v2_off",
+          "render_method": "opaque",
+          "ambient_occlusion": true
+        }
+      },
+      "utilitycraft:special_container": {},
+      "utilitycraft:link_node_io": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": false,
+      "tag:dorios:machine": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "utilitycraft:crafted_indicator": {
+        "mode": "display"
+      },
+      "minecraft:tick": {
+        "interval_range": [
+          4,
+          4
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('utilitycraft:indicator_active') == true",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "utilitycraft_exhibitor_direction_v2_on",
+              "render_method": "opaque",
+              "ambient_occlusion": true
+            }
+          }
+        }
+      }
+    ]
+  }
 }

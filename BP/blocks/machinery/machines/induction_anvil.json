@@ -38,14 +38,21 @@
 				}
 			},
 			"utilitycraft:machine_upgrades": [
-				{ "type": "speed", "slot": 4 },
-				{ "type": "energy", "slot": 5 }
+				{
+					"type": "speed",
+					"slot": 4
+				},
+				{
+					"type": "energy",
+					"slot": 5
+				}
 			],
-			"minecraft:geometry": "geometry.induction_anvil",
+			"minecraft:geometry": "geometry.utilitycraft_induction_anvil_direction_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_induction_anvil",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_induction_anvil_direction_v2_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:tick": {
@@ -108,6 +115,18 @@
 							90,
 							0
 						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:on') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_induction_anvil_direction_v2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
 					}
 				}
 			}

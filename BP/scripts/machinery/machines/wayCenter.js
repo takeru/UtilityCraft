@@ -1,4 +1,5 @@
 import * as DoriosLib from "DoriosLib/index.js";
+import { pulseMachineIndicator } from "../../DoriosCore/machinery/activitySignals.js";
 import { ItemStack, system, world } from "@minecraft/server";
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
 
@@ -522,6 +523,7 @@ function teleportToDestination(player, centerEntity, destination, price) {
     try {
         player.teleport(target, { dimension: destinationDimension });
         if (price > 0) player.addLevels(-price);
+        pulseMachineIndicator(centerEntity);
 
         system.runTimeout(() => {
             try {
@@ -576,6 +578,7 @@ function teleportToWayCenter(carpet, player) {
 
     try {
         player.teleport(target, { dimension: centerDimension });
+        pulseMachineIndicator(registration.entity);
 
         system.runTimeout(() => {
             try {

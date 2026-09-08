@@ -1,4 +1,5 @@
 import * as DoriosLib from "DoriosLib/index.js";
+import { beginIndicatorStorageChange, endIndicatorStorageChange } from "./activitySignals.js";
 import { world, ItemStack, system } from "@minecraft/server";
 import * as Constants from "./constants.js";
 import { OutputTracker } from "./outputTracker.js";
@@ -665,9 +666,11 @@ export class FluidStorage {
    * @returns {void}
    */
   set(amount) {
+    const indicatorBefore = beginIndicatorStorageChange(this, "fluid");
     const { value, exp } = FluidStorage.normalizeValue(amount);
     this.scores.fluid.setScore(this.scoreId, value);
     this.scores.fluidExp.setScore(this.scoreId, exp);
+    endIndicatorStorageChange(this, indicatorBefore);
     if (this.entity?.typeId?.startsWith("utilitycraft:fluid_tank")) {
       DoriosLib.entity.setHealth(this.entity, amount);
     }
@@ -695,6 +698,7 @@ export class FluidStorage {
    * @returns {number} Actual amount added or removed.
    */
   add(amount) {
+    const indicatorBefore = beginIndicatorStorageChange(this, "fluid");
     if (amount === 0) return 0;
 
     // Clamp amount to valid range
@@ -733,6 +737,7 @@ export class FluidStorage {
       }
     }
 
+    endIndicatorStorageChange(this, indicatorBefore);
     return amount;
   }
 

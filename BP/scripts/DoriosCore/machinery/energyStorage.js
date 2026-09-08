@@ -1,4 +1,5 @@
 import * as DoriosLib from "DoriosLib/index.js";
+import { beginIndicatorStorageChange, endIndicatorStorageChange } from "./activitySignals.js";
 import { world, ItemStack, system } from "@minecraft/server";
 import * as Constants from "./constants.js";
 import { loadObjectives } from "../utils/scoreboards.js";
@@ -289,10 +290,12 @@ export class EnergyStorage {
    * energy.set(1_250_000);
    */
   set(amount) {
+    const indicatorBefore = beginIndicatorStorageChange(this, "energy");
     const { value, exp } = EnergyStorage.normalizeValue(amount);
 
     EnergyStorage.#objectives.energy.setScore(this.scoreId, value);
     EnergyStorage.#objectives.energyExp.setScore(this.scoreId, exp);
+    endIndicatorStorageChange(this, indicatorBefore);
   }
 
   /**
@@ -361,6 +364,7 @@ export class EnergyStorage {
    * console.log(added); // → 5000 or less if near cap
    */
   add(amount) {
+    const indicatorBefore = beginIndicatorStorageChange(this, "energy");
     // Clamp amount to remaining capacity
     const free = this.getFreeSpace();
     if (amount > 0 && free <= 0) return 0;
@@ -388,6 +392,7 @@ export class EnergyStorage {
       this.set(this.get() + amount);
     }
 
+    endIndicatorStorageChange(this, indicatorBefore);
     return amount;
   }
 
