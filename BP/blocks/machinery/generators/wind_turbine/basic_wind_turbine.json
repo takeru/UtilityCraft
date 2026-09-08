@@ -26,7 +26,7 @@
 				"entity": {
 					"name": "wind_turbine",
 					"type": "generator",
-					"inventory_size":2
+					"inventory_size": 2
 				},
 				"generator": {
 					"energy_cap": 64000,
@@ -42,15 +42,12 @@
 					"max_multiplier": 2
 				}
 			},
-			"minecraft:geometry": "geometry.utilitycraft_wind_turbine",
+			"minecraft:geometry": "geometry.utilitycraft_basic_wind_turbine_direction_v2",
 			"minecraft:material_instances": {
-				"aspas": {
-					"texture": "utilitycraft_wind_turbine_still",
-					"render_method": "alpha_test"
-				},
 				"*": {
-					"texture": "utilitycraft_basic_wind_turbine_off",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_basic_wind_turbine_direction_v2_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:tick": {
@@ -143,17 +140,19 @@
 			{
 				"condition": "q.block_state('utilitycraft:on') == true ",
 				"components": {
-					"minecraft:material_instances": {
-						"aspas": {
-							"texture": "utilitycraft_wind_turbine",
-							"render_method": "alpha_test"
-						},
-						"*": {
-							"texture": "utilitycraft_basic_wind_turbine_on",
-							"render_method": "alpha_test"
-						}
-					},
 					"minecraft:light_emission": 4
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:on') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_basic_wind_turbine_direction_v2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
+					}
 				}
 			}
 		]

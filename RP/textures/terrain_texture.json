@@ -4,6 +4,177 @@
 	"resource_pack_name": "UtilityCraft 3.0",
 	"texture_name": "atlas.terrain",
 	"texture_data": {
+		"utilitycraft_induction_anvil_crafted_v1_off": {
+			"textures": "textures/blocks/machines/induction_anvil_crafted_v1_off"
+		},
+		"utilitycraft_induction_anvil_crafted_v1_on": {
+			"textures": "textures/blocks/machines/induction_anvil_crafted_v1_on"
+		},
+		"utilitycraft_seed_synthesizer_crafted_v1_off": {
+			"textures": "textures/blocks/machines/seed_synthesizer_crafted_v1_off"
+		},
+		"utilitycraft_seed_synthesizer_crafted_v1_on": {
+			"textures": "textures/blocks/machines/seed_synthesizer_crafted_v1_on"
+		},
+		"utilitycraft_xp_condenser_crafted_v1_off": {
+			"textures": "textures/blocks/machines/xp_condenser_crafted_v1_off"
+		},
+		"utilitycraft_xp_condenser_crafted_v1_on": {
+			"textures": "textures/blocks/machines/xp_condenser_crafted_v1_on"
+		},
+		"utilitycraft_autofisher_crafted_v1_off": {
+			"textures": "textures/blocks/machines/autofisher_crafted_v1_off"
+		},
+		"utilitycraft_autofisher_crafted_v1_on": {
+			"textures": "textures/blocks/machines/autofisher_crafted_v1_on"
+		},
+		"utilitycraft_harvester_crafted_v1_off": {
+			"textures": "textures/blocks/machines/harvester_crafted_v1_off"
+		},
+		"utilitycraft_harvester_crafted_v1_on": {
+			"textures": "textures/blocks/machines/harvester_crafted_v1_on"
+		},
+		"utilitycraft_basic_thermo_generator_crafted_v1_off": {
+			"textures": "textures/blocks/machines/basic_thermo_generator_crafted_v1_off"
+		},
+		"utilitycraft_basic_thermo_generator_crafted_v1_on": {
+			"textures": "textures/blocks/machines/basic_thermo_generator_crafted_v1_on"
+		},
+		"utilitycraft_basic_solar_panel_crafted_v1_off": {
+			"textures": "textures/blocks/machines/basic_solar_panel_crafted_v1_off"
+		},
+		"utilitycraft_basic_solar_panel_crafted_v1_on": {
+			"textures": "textures/blocks/machines/basic_solar_panel_crafted_v1_on"
+		},
+		"utilitycraft_basic_wind_turbine_crafted_v1_off": {
+			"textures": "textures/blocks/machines/basic_wind_turbine_crafted_v1_off"
+		},
+		"utilitycraft_basic_wind_turbine_crafted_v1_on": {
+			"textures": "textures/blocks/machines/basic_wind_turbine_crafted_v1_on"
+		},
+		"utilitycraft_basic_battery_crafted_v1_capacity_0": {
+			"textures": "textures/blocks/machines/basic_battery_crafted_v1_capacity_0"
+		},
+		"utilitycraft_basic_battery_crafted_v1_capacity_1": {
+			"textures": "textures/blocks/machines/basic_battery_crafted_v1_capacity_1"
+		},
+		"utilitycraft_basic_battery_crafted_v1_capacity_2": {
+			"textures": "textures/blocks/machines/basic_battery_crafted_v1_capacity_2"
+		},
+		"utilitycraft_basic_battery_crafted_v1_capacity_3": {
+			"textures": "textures/blocks/machines/basic_battery_crafted_v1_capacity_3"
+		},
+		"utilitycraft_basic_battery_crafted_v1_capacity_4": {
+			"textures": "textures/blocks/machines/basic_battery_crafted_v1_capacity_4"
+		},
+		"utilitycraft_basic_battery_crafted_v1_capacity_5": {
+			"textures": "textures/blocks/machines/basic_battery_crafted_v1_capacity_5"
+		},
+		"utilitycraft_basic_battery_crafted_v1_capacity_6": {
+			"textures": "textures/blocks/machines/basic_battery_crafted_v1_capacity_6"
+		},
+		"utilitycraft_basic_energy_transmitter_crafted_v1_off": {
+			"textures": "textures/blocks/machines/basic_energy_transmitter_crafted_v1_off"
+		},
+		"utilitycraft_basic_energy_transmitter_crafted_v1_on": {
+			"textures": "textures/blocks/machines/basic_energy_transmitter_crafted_v1_on"
+		},
+		"utilitycraft_basic_energy_receiver_crafted_v1_off": {
+			"textures": "textures/blocks/machines/basic_energy_receiver_crafted_v1_off"
+		},
+		"utilitycraft_basic_energy_receiver_crafted_v1_on": {
+			"textures": "textures/blocks/machines/basic_energy_receiver_crafted_v1_on"
+		},
+		"utilitycraft_way_center_crafted_v1_off": {
+			"textures": "textures/blocks/machines/way_center_crafted_v1_off"
+		},
+		"utilitycraft_way_center_crafted_v1_on": {
+			"textures": "textures/blocks/machines/way_center_crafted_v1_on"
+		},
+		"utilitycraft_exhibitor_crafted_v1_off": {
+			"textures": "textures/blocks/machines/exhibitor_crafted_v1_off"
+		},
+		"utilitycraft_exhibitor_crafted_v1_on": {
+			"textures": "textures/blocks/machines/exhibitor_crafted_v1_on"
+		},
+		"utilitycraft_crusher_crafted_v1_off": {
+			"textures": "textures/blocks/machines/crusher_crafted_v1_off"
+		},
+		"utilitycraft_crusher_crafted_v1_on": {
+			"textures": "textures/blocks/machines/crusher_crafted_v1_on"
+		},
+		"utilitycraft_infuser_crafted_v1_off": {
+			"textures": "textures/blocks/machines/infuser_crafted_v1_off"
+		},
+		"utilitycraft_infuser_crafted_v1_on": {
+			"textures": "textures/blocks/machines/infuser_crafted_v1_on"
+		},
+		"utilitycraft_incinerator_crafted_v1_off": {
+			"textures": "textures/blocks/machines/incinerator_crafted_v1_off"
+		},
+		"utilitycraft_incinerator_crafted_v1_on": {
+			"textures": "textures/blocks/machines/incinerator_crafted_v1_on"
+		},
+		"utilitycraft_magmatic_chamber_crafted_v1_off": {
+			"textures": "textures/blocks/machines/magmatic_chamber_crafted_v1_off"
+		},
+		"utilitycraft_magmatic_chamber_crafted_v1_on": {
+			"textures": "textures/blocks/machines/magmatic_chamber_crafted_v1_on"
+		},
+		"utilitycraft_assembler_crafted_v1_off": {
+			"textures": "textures/blocks/machines/assembler_crafted_v1_off"
+		},
+		"utilitycraft_assembler_crafted_v1_on": {
+			"textures": "textures/blocks/machines/assembler_crafted_v1_on"
+		},
+		"utilitycraft_digitizer_crafted_v1_off": {
+			"textures": "textures/blocks/machines/digitizer_crafted_v1_off"
+		},
+		"utilitycraft_digitizer_crafted_v1_on": {
+			"textures": "textures/blocks/machines/digitizer_crafted_v1_on"
+		},
+		"utilitycraft_autosieve_crafted_v1_off": {
+			"textures": "textures/blocks/machines/autosieve_crafted_v1_off"
+		},
+		"utilitycraft_autosieve_crafted_v1_on": {
+			"textures": "textures/blocks/machines/autosieve_crafted_v1_on"
+		},
+		"utilitycraft_block_breaker_crafted_v1_off": {
+			"textures": "textures/blocks/machines/block_breaker_crafted_v1_off"
+		},
+		"utilitycraft_block_breaker_crafted_v1_on": {
+			"textures": "textures/blocks/machines/block_breaker_crafted_v1_on"
+		},
+		"utilitycraft_block_placer_crafted_v1_off": {
+			"textures": "textures/blocks/machines/block_placer_crafted_v1_off"
+		},
+		"utilitycraft_block_placer_crafted_v1_on": {
+			"textures": "textures/blocks/machines/block_placer_crafted_v1_on"
+		},
+		"utilitycraft_basic_furnator_crafted_v1_off": {
+			"textures": "textures/blocks/machines/basic_furnator_crafted_v1_off"
+		},
+		"utilitycraft_basic_furnator_crafted_v1_on": {
+			"textures": "textures/blocks/machines/basic_furnator_crafted_v1_on"
+		},
+		"utilitycraft_basic_magmator_crafted_v1_off": {
+			"textures": "textures/blocks/machines/basic_magmator_crafted_v1_off"
+		},
+		"utilitycraft_basic_magmator_crafted_v1_on": {
+			"textures": "textures/blocks/machines/basic_magmator_crafted_v1_on"
+		},
+		"utilitycraft_electro_press_v2_off": {
+			"textures": "textures/blocks/machines/electro_press_v2_off"
+		},
+		"utilitycraft_electro_press_v2_on": {
+			"textures": "textures/blocks/machines/electro_press_v2_on"
+		},
+		"utilitycraft_electro_press_v1_off": {
+			"textures": "textures/blocks/machines/electro_press_v1_off"
+		},
+		"utilitycraft_electro_press_v1_on": {
+			"textures": "textures/blocks/machines/electro_press_v1_on"
+		},
 		"utilitycraft_wood_sieve_grass": {
 			"textures": "textures/blocks/grass_carried"
 		},
@@ -3090,6 +3261,192 @@
 		},
 		"utilitycraft_compressed_blaze_block_4": {
 			"textures": "textures/blocks/compressed/blaze_4"
+		},
+		"utilitycraft_crusher_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/crusher_off"
+		},
+		"utilitycraft_crusher_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/crusher_on"
+		},
+		"utilitycraft_electro_press_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/electro_press_off"
+		},
+		"utilitycraft_electro_press_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/electro_press_on"
+		},
+		"utilitycraft_infuser_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/infuser_off"
+		},
+		"utilitycraft_infuser_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/infuser_on"
+		},
+		"utilitycraft_incinerator_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/incinerator_off"
+		},
+		"utilitycraft_incinerator_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/incinerator_on"
+		},
+		"utilitycraft_magmatic_chamber_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/magmatic_chamber_off"
+		},
+		"utilitycraft_magmatic_chamber_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/magmatic_chamber_on"
+		},
+		"utilitycraft_assembler_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/assembler_off"
+		},
+		"utilitycraft_assembler_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/assembler_on"
+		},
+		"utilitycraft_digitizer_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/digitizer_off"
+		},
+		"utilitycraft_digitizer_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/digitizer_on"
+		},
+		"utilitycraft_induction_anvil_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/induction_anvil_off"
+		},
+		"utilitycraft_induction_anvil_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/induction_anvil_on"
+		},
+		"utilitycraft_seed_synthesizer_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/seed_synthesizer_off"
+		},
+		"utilitycraft_seed_synthesizer_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/seed_synthesizer_on"
+		},
+		"utilitycraft_xp_condenser_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/xp_condenser_off"
+		},
+		"utilitycraft_xp_condenser_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/xp_condenser_on"
+		},
+		"utilitycraft_autosieve_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/autosieve_off"
+		},
+		"utilitycraft_autosieve_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/autosieve_on"
+		},
+		"utilitycraft_autofisher_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/autofisher_off"
+		},
+		"utilitycraft_autofisher_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/autofisher_on"
+		},
+		"utilitycraft_harvester_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/harvester_off"
+		},
+		"utilitycraft_harvester_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/harvester_on"
+		},
+		"utilitycraft_block_breaker_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/block_breaker_off"
+		},
+		"utilitycraft_block_breaker_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/block_breaker_on"
+		},
+		"utilitycraft_block_placer_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/block_placer_off"
+		},
+		"utilitycraft_block_placer_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/block_placer_on"
+		},
+		"utilitycraft_basic_furnator_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_furnator_off"
+		},
+		"utilitycraft_basic_furnator_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_furnator_on"
+		},
+		"utilitycraft_basic_magmator_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_magmator_off"
+		},
+		"utilitycraft_basic_magmator_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_magmator_on"
+		},
+		"utilitycraft_basic_thermo_generator_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_thermo_generator_off"
+		},
+		"utilitycraft_basic_thermo_generator_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_thermo_generator_on"
+		},
+		"utilitycraft_basic_solar_panel_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_solar_panel_off"
+		},
+		"utilitycraft_basic_solar_panel_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_solar_panel_on"
+		},
+		"utilitycraft_basic_wind_turbine_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_wind_turbine_off"
+		},
+		"utilitycraft_basic_wind_turbine_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_wind_turbine_on"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_0_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_0_off"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_0_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_0_on"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_1_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_1_off"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_1_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_1_on"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_2_off"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_2_on"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_3_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_3_off"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_3_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_3_on"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_4_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_4_off"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_4_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_4_on"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_5_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_5_off"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_5_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_5_on"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_6_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_6_off"
+		},
+		"utilitycraft_basic_battery_direction_v2_capacity_6_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_battery_capacity_6_on"
+		},
+		"utilitycraft_basic_energy_transmitter_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_energy_transmitter_off"
+		},
+		"utilitycraft_basic_energy_transmitter_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_energy_transmitter_on"
+		},
+		"utilitycraft_basic_energy_receiver_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/basic_energy_receiver_off"
+		},
+		"utilitycraft_basic_energy_receiver_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/basic_energy_receiver_on"
+		},
+		"utilitycraft_way_center_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/way_center_off"
+		},
+		"utilitycraft_way_center_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/way_center_on"
+		},
+		"utilitycraft_exhibitor_direction_v2_off": {
+			"textures": "textures/blocks/machines/direction_v2/exhibitor_off"
+		},
+		"utilitycraft_exhibitor_direction_v2_on": {
+			"textures": "textures/blocks/machines/direction_v2/exhibitor_on"
 		}
 	}
 }

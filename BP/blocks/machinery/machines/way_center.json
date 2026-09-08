@@ -14,6 +14,10 @@
 					3,
 					4,
 					5
+				],
+				"utilitycraft:indicator_active": [
+					false,
+					true
 				]
 			},
 			"traits": {
@@ -28,42 +32,28 @@
 		"components": {
 			"utilitycraft:computer": {},
 			"utilitycraft:upgradeable": {},
-			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:geometry": "geometry.utilitycraft_way_center_direction_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_way_center_north",
-					"render_method": "alpha_test"
-				},
-				"north": {
-					"texture": "utilitycraft_way_center_north",
-					"render_method": "alpha_test"
-				},
-				"south": {
-					"texture": "utilitycraft_way_center_south",
-					"render_method": "alpha_test"
-				},
-				"east": {
-					"texture": "utilitycraft_way_center_east",
-					"render_method": "alpha_test"
-				},
-				"west": {
-					"texture": "utilitycraft_way_center_west",
-					"render_method": "alpha_test"
-				},
-				"up": {
-					"texture": "utilitycraft_way_center_up",
-					"render_method": "alpha_test"
-				},
-				"down": {
-					"texture": "utilitycraft_way_center_down",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_way_center_direction_v2_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 2.0
 			},
 			"minecraft:destructible_by_explosion": false,
-			"tag:dorios:upgradeable": {}
+			"tag:dorios:upgradeable": {},
+			"utilitycraft:crafted_indicator": {
+				"mode": "pulse"
+			},
+			"minecraft:tick": {
+				"interval_range": [
+					4,
+					4
+				]
+			}
 		},
 		"permutations": [
 			{
@@ -111,6 +101,18 @@
 							90,
 							0
 						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:indicator_active') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_way_center_direction_v2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
 					}
 				}
 			}

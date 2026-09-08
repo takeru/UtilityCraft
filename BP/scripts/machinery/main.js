@@ -1,4 +1,5 @@
 import "./machines/autosieve.js";
+import "./craftedIndicator.js";
 import "./machines/autofisher.js";
 import "./machines/seedSynthesizer.js";
 import "./machines/simpleMachine.js";

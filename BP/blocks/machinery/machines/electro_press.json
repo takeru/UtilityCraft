@@ -38,41 +38,24 @@
 				}
 			},
 			"utilitycraft:machine_upgrades": [
-				{ "type": "speed", "slot": 4 },
-				{ "type": "energy", "slot": 5 }
+				{
+					"type": "speed",
+					"slot": 4
+				},
+				{
+					"type": "energy",
+					"slot": 5
+				}
 			],
 			"utilitycraft:machine_recipes": {
 				"type": "presser"
 			},
-			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:geometry": "geometry.utilitycraft_electro_press_direction_v2",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "utilitycraft_electro_press_off_north",
-					"render_method": "alpha_test"
-				},
-				"north": {
-					"texture": "utilitycraft_electro_press_off_north",
-					"render_method": "alpha_test"
-				},
-				"south": {
-					"texture": "utilitycraft_electro_press_off_south",
-					"render_method": "alpha_test"
-				},
-				"east": {
-					"texture": "utilitycraft_electro_press_off_east",
-					"render_method": "alpha_test"
-				},
-				"west": {
-					"texture": "utilitycraft_electro_press_off_west",
-					"render_method": "alpha_test"
-				},
-				"up": {
-					"texture": "utilitycraft_electro_press_off_up",
-					"render_method": "alpha_test"
-				},
-				"down": {
-					"texture": "utilitycraft_electro_press_off_down",
-					"render_method": "alpha_test"
+					"texture": "utilitycraft_electro_press_direction_v2_off",
+					"render_method": "opaque",
+					"ambient_occlusion": true
 				}
 			},
 			"minecraft:tick": {
@@ -91,39 +74,9 @@
 			"tag:minecraft:is_pickaxe_item_destructible": {}
 		},
 		"permutations": [
-{
+			{
 				"condition": "q.block_state('utilitycraft:on') == true ",
 				"components": {
-					"minecraft:material_instances": {
-				"*": {
-					"texture": "utilitycraft_electro_press_on_north",
-					"render_method": "alpha_test"
-				},
-				"north": {
-					"texture": "utilitycraft_electro_press_on_north",
-					"render_method": "alpha_test"
-				},
-				"south": {
-					"texture": "utilitycraft_electro_press_on_south",
-					"render_method": "alpha_test"
-				},
-				"east": {
-					"texture": "utilitycraft_electro_press_on_east",
-					"render_method": "alpha_test"
-				},
-				"west": {
-					"texture": "utilitycraft_electro_press_on_west",
-					"render_method": "alpha_test"
-				},
-				"up": {
-					"texture": "utilitycraft_electro_press_on_up",
-					"render_method": "alpha_test"
-				},
-				"down": {
-					"texture": "utilitycraft_electro_press_on_down",
-					"render_method": "alpha_test"
-				}
-			},
 					"minecraft:light_emission": 4
 				}
 			},
@@ -172,6 +125,18 @@
 							90,
 							0
 						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('utilitycraft:on') == true",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "utilitycraft_electro_press_direction_v2_on",
+							"render_method": "opaque",
+							"ambient_occlusion": true
+						}
 					}
 				}
 			}
